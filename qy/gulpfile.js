@@ -11,13 +11,13 @@ gulp.task('default',['look'],function(){
 	});
 })
 gulp.task('less',function(){
-	gulp.src('less/*.less')
+	gulp.src('./less/*.less')
 	.pipe(less())
 	.pipe(autoprefixer())
 	.pipe(gulp.dest('./dest'))
 })
-gulp.task('look',function(){
-	gulp.watch('less/*.less',['less']);
+gulp.task('look',['less'],function(){
+	gulp.watch('./less/*.less',['less']);
 })
 // gulp.clean('clean',function(){
 // 	gulp.src('dest/*')

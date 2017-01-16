@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="../dest/global.css">
+    <!-- <link rel="stylesheet" type="text/css" href="../css/main.css"> -->
+    <!-- <link rel="stylesheet" href="../css/jquery-ui.css"> -->
+</head>
+
+<body>
+	<header id="header"></header>
+	<div class="container">
+		<input type="button" name="" id="date" value="">
+	</div>
+	<footer id="footer"></footer>
+    <script src='../bower_components/jquery/dist/jquery.min.js'></script>
+    <script src='../bower_components/seajs/dist/sea.js'></script>
+    <script src='../bower_components/seajs-text/dist/seajs-text.js'></script>
+    <script src='../bower_components/underscore/underscore.js'></script>
+    <!-- <script src="../js/jquery-ui-datepicker.js"></script> -->
+    <!-- <script src='../js/main.js'></script> -->
+    <script>
+    seajs.config({
+        base: './'
+    });
+    seajs.use('../js/head_foot.js', function(main) {
+        main.init();
+    })
+    // $('#date').datepicker({
+    // 	numberOfMonths: 3
+    // });
+    </script>
+</body>
+
+</html>

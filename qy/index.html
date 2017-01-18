@@ -14,11 +14,20 @@
         <h1>container</h1>
     </div>
     <footer id="footer"></footer>
+    <div id="pop"></div>
 </body>
-<script src='bower_components/jquery/dist/jquery.min.js'></script>
-<script src='bower_components/seajs/dist/sea.js'></script>
-<script src='bower_components/seajs-text/dist/seajs-text.js'></script>
-<script src='bower_components/underscore/underscore.js'></script>
-<script src='js/main.js'></script>
+<script src='global.js'></script>
+<!-- <script src='bower_components/jquery/dist/jquery.min.js'></script> -->
+<!-- <script src='bower_components/seajs/dist/sea.js'></script> -->
+<!-- <script src='bower_components/seajs-text/dist/seajs-text.js'></script> -->
+<!-- <script src='bower_components/underscore/underscore.js'></script> -->
+<script>
+seajs.config({
+    base: './'
+});
+seajs.use('js/index.js', function(index) {
+    index.init();
+})
+</script>
 
 </html>

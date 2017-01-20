@@ -10,9 +10,7 @@ define(function(require, exports, module){
             pop.init();
             head_foot.init();
             hotel_public.init();
-            this.dealAjax();
-
-          
+            this.dealAjax();         
         },
 
         dealAjax:function(){
@@ -45,7 +43,7 @@ define(function(require, exports, module){
                 }
             })
         }
-       } 
+    } 
     module.exports = hotel;
 });
 

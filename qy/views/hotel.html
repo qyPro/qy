@@ -6,24 +6,25 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title></title>
 	<link rel="stylesheet"  href="../dest/global.css">
-	<link rel="stylesheet" href="../dest/hotel.css">
-	<script src="../bower_components/underscore/underscore.js"></script>
+	<link rel="stylesheet" href="../dest/hotel.css">   
+	<script src="../global.js"></script>
 	
 </head>
 <body>
 
-
+<header id="header" class="">
+    
+</header>
 <header id="hf-header" class="">
 	<img src="../images/Hotel/head_bg.jpg" alt="">
 	<div class="hf-header-shou">
 
 		<p class="hf-header-p1">全球超过108万家酒店任你选择</p>
 		<p class="hf-header-p2">来自千万穷游er的500万条真实评论</p>
-		<div class="clear">
-			<input type="" value="想去哪里？">
+		<div class=" hf-input clear">
+			<input type="" value="想去哪里">
+			<input type="date">		   	
 			<input type="date">
-		   	
-			<input type="date" >
 			<input type="button" value="搜索酒店">
 
 		</div>
@@ -78,142 +79,57 @@
 			##}##
 		</script>
 	</div>
-
-
-
-
-
-
-
-<script src="../bower_components/jquery/dist/jquery.js"></script>
-<script src="../js/hotel.js"></script>
-	
-</body>
-</html>
-=======
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <!-- 公用样式 -->
-    <link rel="stylesheet" href="../dest/global.css">
-    <!-- 日期插件样式 -->
-    <link rel="stylesheet" type="text/css" href="../plug/datepicker/jquery-ui.css">
-    <link rel="stylesheet" href="../plug/datepicker/jquery-ui.structure.min.css">
-    <!-- 滑块插件 -->
-    <link rel="stylesheet" type="text/css" href="../plug/ion.rangeSlider-2.1.6/css/ion.rangeSlider.skinModern.css">
-    <link rel="stylesheet" type="text/css" href="../plug/ion.rangeSlider-2.1.6/css/ion.rangeSlider.css">
-    <!-- 页面样式 -->
-    <link rel="stylesheet" type="text/css" href="../dest/hotel.css">
-</head>
-
-<body>
-    <header id="header"></header>
-    <div class="hotel-container">
-        <div class="hotel-content">
-            <!-- 目录 -->
-            <div class="catalog">
-                <a href="#">穷游</a>
-                <span>&gt; 海外特价酒店</span>
-            </div>
-            <!-- 标题 -->
-            <div class="title clear">
-                <h2>海外特价酒店</h2>
-                <span>马上就要出国旅行了酒店还没预订？如果你正在搜索未来几天的住宿，那你走运了！这里有最低2折的超级给力折扣！一定要抓住最后一分钟机会迅速出手。记住，好价格不会停在那里等你！</span>
-            </div>
-            <!-- 选择城市、日期 -->
-            <div class="choice-city-date clear" id="choice-city">
-                <div class="city-box">
-                    <label>城市:</label>
-                    <input type="text" value="悉尼" placeholder="请输入城市" class="city-input">
-                    <div class="hot-city">
-                        <h3>热门城市</h3>
-                        <ul>
-                            <li>巴黎</li>
-                            <li>台北</li>
-                            <li>清迈</li>
-                            <li>京都</li>
-                            <li>罗马</li>
-                            <li>大阪</li>
-                            <li>首尔</li>
-                            <li>曼谷</li>
-                            <li>东京</li>
-                            <li>佛罗伦萨</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="date-box">
-                    <label>入住:</label>
-                    <input type="text" readonly="" id="date-start">
-                    <label>退房:</label>
-                    <input type="text" readonly="" id="date-end">
-                </div>
-                <div class="range-box clear">
-                    <label>折后价(元/每晚):</label>
-                    <div class="range-wid">
-                        <input type="range" id="range">
-                    </div>
-                    <!-- <div id="range"></div> -->
-                    <button type="button" id="select">查询</button>
-                </div>
-            </div>
-            <!-- 图片区域 -->
-            <div class="img-list">
-                <ul class="clear">
-                    <script id="hotel-imgList" type='text/html'>
-                        ##for(var i = 0; i
-                        <imgList.length;i++){## <li>
-                            <div class="info">
-                                <img src="{{imgList[i].imgUrl}}" alt="">
-                                <p class="name">{{imgList[i].nameEn}}</p>
-                                <p class="name">{{imgList[i].nameCh}}</p>
-                                <p class="clear">
-                                    <span>星级</span>
-                                    <span class="star">{{imgList[i].star}}</span>
-                                    <span class="grade">{{imgList[i].grade}}分</span>
-                                    <span class="grade">评分：</span>
-                                </p>
-                                <p class="palce">{{imgList[i].place}}</p>
-                            </div>
-                            <div class="price clear">
-                                <span class="cur-price">{{imgList[i].curPrice}}</span>
-                                <del class="all-price">{{imgList[i].allPrice}}</del>
-                                <span class="zhe">{{imgList[i].zhe}}折</span>
-                            </div>
-                            </li>
-                            ##}##
-                    </script>
-                </ul>
-            </div>
+    
+     <div class="hf-bigWorld-footer">
+        <div class="hf-container">
+            <a href="#" title="">机酒自由行</a>|
+            <a href="#" title="">城市玩乐</a>|
+            <a href="#" title="">签证</a>|
+            <a href="#" title="">租车自驾</a>|
+            <a href="#" title="">邮轮</a>|
+            <a href="#" title="">海岛游</a>|
+            <a href="#" title="">限时特卖</a>|
+            <a href="#" title="">特色路线</a>|
+            <a href="#" title="">CityWork</a>
         </div>
-        <nav id="nav"></nav>
+        <ul class="hf-container clear">
+            <li class="clear">
+                <img src="../images/bigworld/footer1.png" alt="">
+                <div>
+                    <p>专业保证</p>
+                    <p>我们收集穷游er的真实诉求，也找寻全世界最独特的旅行目的地，让更多的穷游er轻松出行</p>
+                </div>
+            </li>
+            <li class="clear">
+                <img src="../images/bigworld/footer2.png" alt="">
+                <div>
+                    <p>专业保证</p>
+                    <p>我们收集穷游er的真实诉求，也找寻全世界最独特的旅行目的地，让更多的穷游er轻松出行</p>
+                </div>
+            </li>
+            <li class="clear">
+                <img src="../images/bigworld/footer3.png" alt="">
+                <div>
+                    <p>专业保证</p>
+                    <p>我们收集穷游er的真实诉求，也找寻全世界最独特的旅行目的地，让更多的穷游er轻松出行</p>
+                </div>
+            </li>
+        </ul>
     </div>
-    <div id="pop"></div>
-    <footer id="footer"></footer>
-    <script src='../global.js'></script>
-    <!-- jquery -->
-    <!-- <script src='../bower_components/jquery/dist/jquery.min.js'></script> -->
-    <!-- seajs -->
-    <!-- <script src='../bower_components/seajs/dist/sea.js'></script> -->
-    <!-- <script src='../bower_components/seajs-text/dist/seajs-text.js'></script> -->
-    <!-- underscore -->
-    <!-- <script src='../bower_components/underscore/underscore.js'></script> -->
-    <!-- 日期插件js -->
-    <script src="../plug/datepicker/jquery-ui.min.js"></script>
-    <!-- 滑块插件js -->
-    <script src='../plug/ion.rangeSlider-2.1.6/js/ion-rangeSlider/ion.rangeSlider.min.js'></script>
-    <script>
-    seajs.config({
-        base: './'
-    });
-    seajs.use('../js/hotel.js', function(hotel) {
-        hotel.init();
-    })
-    </script>
-</body>
 
+<div id="pop"></div>
+<footer id="footer"></footer>
+
+     <script>
+        seajs.config({
+            base: './'
+        });
+        seajs.use('../js/hotel.js', function(hotel){
+            hotel.init();
+        })
+    </script>
+     
+</body>
 </html>
+   
 

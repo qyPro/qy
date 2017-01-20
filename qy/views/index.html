@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>穷游</title>
+    <link rel="stylesheet" href="../dest/global.css">
+</head>
+
+<body>
+    <header id="header" class="clearfix"></header>
+    <div class="container">
+        <h1>container</h1>
+    </div>
+    <footer id="footer"></footer>
+    <div id="pop"></div>
+</body>
+<script src='../global.js'></script>
+<script>
+seajs.config({
+    base: './'
+});
+seajs.use('../js/index.js', function(index) {
+    index.init();
+})
+</script>
+
+</html>

@@ -15,7 +15,7 @@ $(function() {
             ajaxData: function() {
                 var that = this;
                 $.ajax({
-                    url: '../jsondoc/index.json',
+                    url: '../json/index.json',
                     type: 'get',
                     success: function(res) {
                         console.log(res);

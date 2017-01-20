@@ -1,8 +1,7 @@
-
 define(function(require, exports, module) {
     var start = 0;
     var end = 0;
-    var hotel = {
+    var hotelSpecial = {
         init: function() {
             this.getImgList();
             this.plug();
@@ -12,7 +11,7 @@ define(function(require, exports, module) {
         // 处理图片列表
         getImgList: function() {
             $.ajax({
-                url: "../json/hotel.json",
+                url: "../json/hotelSpecial.json",
                 type: "get",
                 success: function(res) {
                     // console.log(res);
@@ -97,6 +96,5 @@ define(function(require, exports, module) {
             $('#date-end').val(curDate);
         }
     }
-    module.exports = hotel;
+    module.exports = hotelSpecial;
 });
-

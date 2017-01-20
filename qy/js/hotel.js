@@ -3,13 +3,7 @@ define(function(require, exports, module){
   
     var hotel = {
         init: function() {
-        	// 调用头部底部
-        	var head_foot = require('../js/head_foot.js');
-        	var hotel_public = require('../js/hotel-public.js');
-            var pop = require('./pop.js');
-            pop.init();
-            head_foot.init();
-            hotel_public.init();
+        
             this.dealAjax();         
         },
 

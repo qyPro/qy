@@ -75,13 +75,17 @@
                                 background-color: #fff;
                                 width: 1750px;
                                 height: 320px;
+                                position: relative;
+                                left: 0;
+                                right: 0;
                                 >li {
                                     float: left;
                                     display: inline;
-                                    width: 174px;
-                                    height: 305px;
+                                    width: 175px;
+                                    height: 290px;
                                     padding-top: 15px;
                                     border-right: 1px dotted #ccc;
+                                    box-sizing: border-box;
                                     >h4 {
                                         padding-left: 20px;
                                         font-size: 12px;
@@ -105,6 +109,7 @@
                                 }
                             }
                             .btn-group {
+                                display: none;
                                 position: absolute;
                                 top: 280px;
                                 right: 10px;
@@ -115,18 +120,19 @@
                                     background: url(../images/silkbag/btn-sprite.png) no-repeat;
                                     background-color: #ccc;
                                     margin-left: 10px;
-                                    &:hover {
-                                        background-color: #4e8a33;
-                                    }
                                     &.pre {
-                                        // background: url(../images/silkbag/btn-sprite.png) 9px 8px no-repeat;
                                         background-position: 9px 8px;
+                                        &:hover {
+                                            background-color: #4e8a33;
+                                        }
                                         // background-color: #ccc;
                                     }
                                     &.next {
-                                        // background: url(../images/silkbag/btn-sprite.png) -19px 8px no-repeat;
                                         background-position: -19px 8px;
                                         background-color: #636363;
+                                         &:hover {
+                                            background-color: #4e8a33;
+                                        }
                                     }
                                 }
                             }

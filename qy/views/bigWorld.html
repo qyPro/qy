@@ -434,11 +434,20 @@
         </ul>
     </div>
 
-    <footer id="  "></footer>
+    <footer id="footer"></footer>
     <div id="pop">
         
     </div>
     
+
+    <script type="text/javascript">
+        seajs.config({
+            base:"./"
+        })
+        seajs.use("../js/bigWorld.js",function(big){
+            big.init();
+        })
+    </script>
     <script type="text/javascript" src="../js/register.js">
         
     </script>

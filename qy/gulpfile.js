@@ -4,7 +4,7 @@ var less = require('gulp-less');
 var concat = require('gulp-concat');
 var autoprefixer = require('gulp-autoprefixer');
 var connect = require('gulp-connect');
-
+var watch = require('gulp-watch');
 gulp.task('default',['look','concatjs'],function(){
 	return connect.server({
 		root:'./',
@@ -19,14 +19,14 @@ gulp.task('less',function(){
 })
 gulp.task('look',['less'],function(){
 	gulp.watch('./less/*.less',['less']);
-	// gulp.watch('')
+	// watch('./less',['less']);
 })
 // gulp.clean('clean',function(){
 // 	gulp.src('dest/*')
 // 	.pipe(clean());
 // })
 gulp.task('concatjs',function(){
-	gulp.src(['bower_components/jquery/dist/jquery.js','bower_components/seajs/dist/sea.js','bower_components/seajs-text/dist/seajs-text.js','bower_components/underscore/underscore.js'])
+	gulp.src(['bower_components/jquery/dist/jquery.js','bower_components/seajs/dist/sea.js','bower_components/seajs-text/dist/seajs-text.js','bower_components/underscore/underscore.js','js/public.js'])
 	.pipe(concat('global.js'))
 	.pipe(gulp.dest('./'))
 })

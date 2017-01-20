@@ -85,6 +85,7 @@ header .header-left .nav > li.community .community-drop {
   height: 115px;
   background-color: #fff;
   padding: 8px 0px;
+  z-index: 100;
 }
 header .header-left .nav > li.community .community-drop > ul > li {
   padding-left: 30px;
@@ -113,6 +114,7 @@ header .header-left .nav > li.community .community-drop > ul > li .community-dro
   padding: 0px 20px;
   box-sizing: border-box;
   background-color: #fff;
+  z-index: 100;
 }
 header .header-left .nav > li.community .community-drop > ul > li .community-drop-2 > ul > li {
   float: left;
@@ -215,6 +217,7 @@ header .header-left .nav > li.schedule > div {
   left: 0px;
   padding: 10px 0px;
   background-color: #fff;
+  z-index: 100;
 }
 header .header-left .nav > li.schedule > div > ul li:hover {
   background-color: #e3fae1;

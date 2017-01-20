@@ -14,7 +14,7 @@
     <link rel="stylesheet" type="text/css" href="../plug/ion.rangeSlider-2.1.6/css/ion.rangeSlider.skinModern.css">
     <link rel="stylesheet" type="text/css" href="../plug/ion.rangeSlider-2.1.6/css/ion.rangeSlider.css">
     <!-- 页面样式 -->
-    <link rel="stylesheet" type="text/css" href="../dest/hotel.css">
+    <link rel="stylesheet" type="text/css" href="../dest/hotelSpecial.css">
 </head>
 
 <body>
@@ -71,8 +71,8 @@
             <div class="img-list">
                 <ul class="clear">
                     <script id="hotel-imgList" type='text/html'>
-                        ##for(var i = 0; i
-                        <imgList.length;i++){## <li>
+                        ##for(var i = 0; i<imgList.length;i++){## 
+                        <li>
                             <div class="info">
                                 <img src="{{imgList[i].imgUrl}}" alt="">
                                 <p class="name">{{imgList[i].nameEn}}</p>
@@ -101,13 +101,6 @@
     <div id="pop"></div>
     <footer id="footer"></footer>
     <script src='../global.js'></script>
-    <!-- jquery -->
-    <!-- <script src='../bower_components/jquery/dist/jquery.min.js'></script> -->
-    <!-- seajs -->
-    <!-- <script src='../bower_components/seajs/dist/sea.js'></script> -->
-    <!-- <script src='../bower_components/seajs-text/dist/seajs-text.js'></script> -->
-    <!-- underscore -->
-    <!-- <script src='../bower_components/underscore/underscore.js'></script> -->
     <!-- 日期插件js -->
     <script src="../plug/datepicker/jquery-ui.min.js"></script>
     <!-- 滑块插件js -->
@@ -116,7 +109,7 @@
     seajs.config({
         base: './'
     });
-    seajs.use('../js/hotel.js', function(hotel) {
+    seajs.use('../js/hotelSpecial.js', function(hotel) {
         hotel.init();
     })
     </script>

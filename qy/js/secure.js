@@ -1,12 +1,6 @@
 define(function(require, exports, module) {
     var secure = {
         init: function() {
-            var head_foot = require('./head_foot.js');
-            var hotel_public = require('./hotel-public.js');
-            var pop = require('./pop.js');
-            pop.init();
-            head_foot.init();
-            hotel_public.init();
             this.events();
             this.getSecureData('data1');
         },

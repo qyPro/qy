@@ -4,9 +4,9 @@ define(function(require, exports, module) {
 		current=1;
     var silkbag = {
         init: function() {
+            this.getData();
             this.dealSlide();
             this.dealDownloadList();
-            this.getData();
             this.dealPlug();
             this.events();
         },
@@ -101,10 +101,14 @@ define(function(require, exports, module) {
         	$.ajax({
         		url:'../json/slikbag.json',
         		type:'get',
+                async:false,
         		success:function(res){
         			var slikbagData = res.data;
+                    var areaData = res.areaData;
+                    // 翻页插件 总数
         			totalData = slikbagData.length;
-        			that.fillHtml(slikbagData);
+        			that.fillTabHtml(slikbagData);
+                    that.fillAreaHtml(areaData);
         			that.dealPlug();
         		},
         		error:function(){
@@ -112,11 +116,17 @@ define(function(require, exports, module) {
         		}
         	})
         },
-        fillHtml:function(data){
+        fillTabHtml:function(data){
 			var _html = $('#tab-content').html();
 			var _html_fn = _.template(_html);
 			var result_html = _html_fn({slikbagData:data});
 			$('#tab-content-box').html(result_html);
+        },
+        fillAreaHtml:function(data){
+            var _html = $('#area-html').html();
+            var _html_fn = _.template(_html);
+            var result_html = _html_fn({areaData:data});
+            $('#nav-list').html(result_html);
         },
         dealPlug:function(){
         	var that = this;
@@ -138,10 +148,51 @@ define(function(require, exports, module) {
         },
         events:function(){
         	var that = this;
+            var curLeft = 0;
+            $('#nav-list .area-list').css({'margin-left':'0px'});
         	$('#download .tab a').click(function(){
         		$(this).addClass('active').siblings('a').removeClass('active');
         		that.getData();
-        	})
+        	});
+            // 是否显示点击翻页按钮
+            for( var i = 0; i < $('#nav-list .area-list').length ; i++ ){
+                if($('#nav-list .area-list').eq(i).width()> 700 ){
+                    $('#nav-list .btn-group').eq(i).show();
+                }
+            };
+            // 下一页按钮
+            $('#nav-list .btn-group .next').click(function(){
+                var index = $('#nav-list .btn-group .next').index(this);
+                var curLeft = parseInt($('#nav-list .area-list').eq(index).css('left'));
+                curLeft = curLeft - 175;
+                // 判断是否到第最后一列
+                if($('#nav-list .area-list').width()-700 < -curLeft){
+                    return;
+                }
+                // 下一页按钮变灰
+                if($('#nav-list .area-list').width()-700 < -curLeft+1){
+                    $('#nav-list .btn-group .next').css({'background-color': '#ccc'});
+                }
+                $('#nav-list .area-list').eq(index).stop(true,true).animate({'left':curLeft+'px'})
+                $('#nav-list .btn-group .pre').css({'background-color': '#636363'});
+            });
+            // 上一页按钮
+            $('#nav-list .btn-group .pre').click(function(){
+                var index = $('#nav-list .btn-group .pre').index(this);
+                var curLeft = parseInt($('#nav-list .area-list').eq(index).css('left'));
+                curLeft = curLeft + 175;
+                // 判断是否到第一列
+                if(curLeft > 0){
+                    $('#nav-list .btn-group .next').css({'background-color': '#ccc'})
+                    return;
+                }
+                // 上一页按钮变灰
+                if(curLeft > -1){
+                    $('#nav-list .btn-group .pre').css({'background-color': '#ccc'});
+                }
+                $('#nav-list .area-list').eq(index).stop(true,true).animate({'left':curLeft+'px'});
+                $('#nav-list .btn-group .next').css({'background-color': '#636363'})
+            })
         }
     }
     module.exports = silkbag;

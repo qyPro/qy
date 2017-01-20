@@ -5,30 +5,23 @@ define(function(require,exports,module){
             this.chooseCard();
             this.dealAjax();
             this.dealActive();
-            // this.dealLocation();
             this.events();
-            this.dealEwm();
-           
+            this.dealEwm();     
         },
         dealAjax:function(){
             $.ajax({
                 url: "../json/community.json",
                 success: function(res) {
-                    // console.log(res);
                     var tab1 = res.tab1;
                     var _html = $('#tab1-content').html();
-                    // console.log(_html);
                     var _html_fn = _.template(_html);
                     var html = _html_fn({ tab1: tab1 });
-                    // console.log(html);
                     $('#c1').html(html);
-
                     var tab2=res.tab2;
                     var _html1=$('#tab2-content').html();
                     var _html_fn1=_.template(_html1);
                     var html1=_html_fn1({ tab2 : tab2 });
                     $('#c2').html(html1);
-
                     var tab3=res.tab3;
                     var _html2=$('#tab3-content').html();
                     var _html_fn2=_.template(_html2);
@@ -38,9 +31,7 @@ define(function(require,exports,module){
                 error:function(){
                     alert('error');
                 }
-               
             })
-
         },
         dealSlide: function() {
             var slideP1 = ['了不起的宇直',
@@ -72,7 +63,6 @@ define(function(require,exports,module){
                 $('.f2right>.f2righta1').html(slideP1[showIndex]) /*第一个p标签*/
                 $('.f2right>.f2righta2').html(slideP2[showIndex]) /*第二个p标签*/
                 $('.f2rightUl>li').eq(showIndex).addClass('active').siblings().removeClass('active'); /* 右侧的小图片指示符 */
-                // $('.f2rightUl>li>a>img').eq(showIndex).addClass('active').siblings().removeClass('active');
                 $('.f2SmallImg>img').eq(showIndex).show().siblings().hide(); /*左右链接的小图标人物*/
             }
             $('.f2rightUl>li').hover(function() {
@@ -84,7 +74,6 @@ define(function(require,exports,module){
                 $('.f2right>.f2righta1').html(slideP1[showIndex]) /*第一个p标签*/
                 $('.f2right>.f2righta2').html(slideP2[showIndex]) /*第二个p标签*/
                 $('.f2rightUl>li').eq(showIndex).addClass('active').siblings().removeClass('active'); /* 右侧的小图片指示符 */
-                // $('.f2rightUl>li>a>img').eq(showIndex).addClass('active').siblings().removeClass('active');
                 $('.f2SmallImg>img').eq(showIndex).show().siblings().hide(); /*左右链接的小图标人物*/
                 },
                 function() {
@@ -96,12 +85,9 @@ define(function(require,exports,module){
             var that=this;
             $('.f3Title>h3').click(function() {
                 var index = $(this).index();
-                // if( index == 0 ){
                     that.dealAjax();
                 $(this).addClass('active2').siblings().removeClass('active2');
                 $('.content').eq(index).show().siblings().hide();
-
-                // }
             })
             
         },
@@ -112,16 +98,12 @@ define(function(require,exports,module){
             });
         },
         // 处理右侧绝对定位
-        // dealLocation:function(){
-        //     $('.youdingleft').click(function(){
-        //         $('.youDing').fadeToggle().animate(function(){
-        //             $('.youdingleft').css({ margin :'100px'})
-        //         },1000);
-        //     })
-        // },
         events:function(){
             $('.youDing1').click(function(){
                 $(this).toggleClass('moveActive');
+            })
+            $('.youdingright').click(function(){
+                location.href='../views/login.html';
             })
         },
         // 处理二维码
@@ -133,6 +115,5 @@ define(function(require,exports,module){
             })
         }
     }
-    // community.init();
     module.exports=community;
 });

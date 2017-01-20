@@ -1,445 +1,58 @@
 {
-	"resultCode":"0000",
-	"imgList":[
+	"hotel":[
 		{
-			"imgUrl":"../images/hotel/img1.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
+			"img":"../images/Hotel/shouer.png",
+			"p":"首尔",
+			"span":"0000"
 		},
 		{
-			"imgUrl":"../images/hotel/img2.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
+			"img":"../images/Hotel/bali.png",
+			"p":"巴黎",
+			"span":"1111"
 		},
 		{
-			"imgUrl":"../images/hotel/img3.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
+			"img":"../images/Hotel/lundon.png",
+			"p":"伦敦",
+			"span":"2222"
 		},
 		{
-			"imgUrl":"../images/hotel/img4.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
+			"img":"../images/Hotel/dongjing.png",
+			"p":"东京",
+			"span":"3333"
 		},
 		{
-			"imgUrl":"../images/hotel/img5.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
+			"img":"../images/Hotel/foluo.png",
+			"p":"佛罗伦萨",
+			"span":"4444"
 		},
 		{
-			"imgUrl":"../images/hotel/img6.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
+			"img":"../images/Hotel/hongkou.png",
+			"p":"香港",
+			"span":"5555"
 		},
 		{
-			"imgUrl":"../images/hotel/img7.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
+			"img":"../images/Hotel/jingdu.png",
+			"p":"京都",
+			"span":"6666"
 		},
 		{
-			"imgUrl":"../images/hotel/img8.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
+			"img":"../images/Hotel/luoma.png",
+			"p":"罗马",
+			"span":"7777"
 		},
 		{
-			"imgUrl":"../images/hotel/img9.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
-		},
-		{
-			"imgUrl":"../images/hotel/img10.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
-		},
-		{
-			"imgUrl":"../images/hotel/img11.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
-		},
-		{
-			"imgUrl":"../images/hotel/img12.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
-		},
-		{
-			"imgUrl":"../images/hotel/img13.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
-		},
-		{
-			"imgUrl":"../images/hotel/img14.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
-		},
-		{
-			"imgUrl":"../images/hotel/img15.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
-		},
-		{
-			"imgUrl":"../images/hotel/img16.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
-		},
-		{
-			"imgUrl":"../images/hotel/img17.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
-		},
-		{
-			"imgUrl":"../images/hotel/img18.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
-		},
-		{
-			"imgUrl":"../images/hotel/img19.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
-		},
-		{
-			"imgUrl":"../images/hotel/img20.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
-		},
-		{
-			"imgUrl":"../images/hotel/img1.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
-		},
-		{
-			"imgUrl":"../images/hotel/img2.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
-		},
-		{
-			"imgUrl":"../images/hotel/img3.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
-		},
-		{
-			"imgUrl":"../images/hotel/img4.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
-		},
-		{
-			"imgUrl":"../images/hotel/img5.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
-		},
-		{
-			"imgUrl":"../images/hotel/img6.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
-		},
-		{
-			"imgUrl":"../images/hotel/img7.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
-		},
-		{
-			"imgUrl":"../images/hotel/img8.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
-		},
-		{
-			"imgUrl":"../images/hotel/img9.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
-		},
-		{
-			"imgUrl":"../images/hotel/img10.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
-		},
-		{
-			"imgUrl":"../images/hotel/img11.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
-		},
-		{
-			"imgUrl":"../images/hotel/img12.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"-",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
-		},
-		{
-			"imgUrl":"../images/hotel/img13.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
-		},
-		{
-			"imgUrl":"../images/hotel/img14.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
-		},
-		{
-			"imgUrl":"../images/hotel/img15.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
-		},
-		{
-			"imgUrl":"../images/hotel/img16.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
-		},
-		{
-			"imgUrl":"../images/hotel/img17.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
-		},
-		{
-			"imgUrl":"../images/hotel/img18.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
-		},
-		{
-			"imgUrl":"../images/hotel/img19.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
-		},
-		{
-			"imgUrl":"../images/hotel/img20.jpg",
-			"nameEn":"Hotel Spadai",
-			"nameCh":"斯帕戴酒店",
-			"star":"★★★",
-			"grade":"9.6",
-			"place":"意大利 佛罗伦萨",
-			"curPrice":"￥770",
-			"allPrice":"￥1155",
-			"zhe":"6.7"
+			"img":"../images/Hotel/puji.png",
+			"p":"普吉岛",
+			"span":"8888"
 		}
+	],
+
+	"hotcity":[
+		"锡耶纳", "南投县", "伊兹密尔" ,"福冈市","阿布扎比","安塔利亚","英国湖区","马累","嘉义","宿雾市","努瓦勒埃利耶","尼甘布","恒春","大城","冲绳","庞贝","蒙特勒","萨尔茨卡默古特","瓦纳卡","羊角村"
+	],
+
+	"guowai":[
+
+		"匈牙利","俄罗斯","瑞典","丹麦","阿联酋","葡萄牙","马尔代夫","摩纳哥","斯里兰卡","挪威","卢森堡","芬兰","印度","埃及","墨西哥","缅甸","老挝","波兰","冰岛","列支敦士登"
 	]
 }

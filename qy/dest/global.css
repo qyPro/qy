@@ -200,7 +200,7 @@ header .header-left .nav > li > a {
   color: silver;
   font-weight: bold;
 }
-header .header-left .nav > li > a.active {
+header .header-left .nav > li.active > a {
   color: #10b041;
 }
 header .header-left .nav > li.schedule {

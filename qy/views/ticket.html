@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="../dest/global.css">
+	<link rel="stylesheet" href="../dest/ticket.css">
+	<script src="../global.js"></script>
+
+</head>
+<body>
+
+
+	<header id="header" ></header>
+	<div class="hf-ticket-header hf-con">
+		<p><a href="#" title="">穷游</a> > <span>机票</span></p>
+		<div class="clear">
+			<h1>穷游机票</h1> <p>帮你大海捞针</p>			
+		</div>
+	</div>
+
+	<div class="hf-ticket-content">
+	  <div class="hf-ticket hf-con clear">	  		 
+		<div class="hf-ticket1 ">
+			<div class="hf-ticket1-top">
+				<form class="clear">
+					<input id="hf_ticket_iniput1" type="radio" checked="checked" name="sex" value="male"> <span>往返</span>
+					<input id="hf_ticket_iniput2" type="radio" name="sex" vale="female">
+					<span>单程</span>
+				</form>
+
+				<div class="hf-form2 clear">
+					<div>
+						<p>出发</p>
+						<input type="text" placeholder="请输入出发城市">
+					</div>
+
+					<img src="../images/ticket/anniu.png" alt="">
+
+					<div>
+						<p>到达</p>
+						<input type="text" placeholder="请输入到达城市">
+					</div>
+					
+				</div>
+
+				<div class="hf-form3 clear">
+						<div>
+							<p>去程日期</p>
+							<input type="date" >
+						</div>
+						<p id="hf_p"> > </p>
+
+						<div id="hf_ticket_div_hf">
+							<p>返程日期</p>
+							<input type="date" >
+						</div>
+						
+				</div>
+				<div class="hf-ticket-anniu">搜索机票</div>
+				
+			</div>
+			<img src="../images/ticket/ticket1.jpg" alt="">
+
+			
+				
+			
+		</div>
+	  
+		<div class="hf-ticket2">
+			<img src="../images/ticket/ticket2.jpg" alt="">
+			<h2>为什么在穷游搜索机票？</h2>
+			<ul>
+				
+				<li class="clear"> 
+				<span>></span>
+				<p>
+					
+				实时比价：穷游提供上千家航空公司和百万条航线的即时在线价格查询与比价服务
+				</p>
+				</li>
+
+				
+				<li class="clear"> 
+				<span>></span>
+				<p>出票保障：预订并支付成功后，出票率可百分百保证，如遇极特殊情况，可协调合作商承担差价并给予相应额外赔付。
+				</p>
+				</li>
+
+
+				
+				<li class="clear">
+				<span>></span>
+				<p>售后保障：支付并出票成功后，您可享受机票退改、值机订座等一站式售后服务；
+				</p>
+				</li>
+
+				
+				<li class="clear">
+				<span>></span>
+				<p>应急援助：乘机时，如遇行李/证件丢失、误机、突发事件等状况，您可通过我们得到力所能及的支持和援助。
+				</p></li>
+
+
+			</ul>
+		</div>
+	  </div>
+	</div>
+
+	<div class="hf-bigWorld-footer">
+        <div class="hf-container">
+            <a href="#" title="">机酒自由行</a>|
+            <a href="#" title="">城市玩乐</a>|
+            <a href="#" title="">签证</a>|
+            <a href="#" title="">租车自驾</a>|
+            <a href="#" title="">邮轮</a>|
+            <a href="#" title="">海岛游</a>|
+            <a href="#" title="">限时特卖</a>|
+            <a href="#" title="">特色路线</a>|
+            <a href="#" title="">CityWork</a>
+        </div>
+        <ul class="hf-container clear">
+            <li class="clear">
+                <img src="../images/bigworld/footer1.png" alt="">
+                <div>
+                    <p>专业保证</p>
+                    <p>我们收集穷游er的真实诉求，也找寻全世界最独特的旅行目的地，让更多的穷游er轻松出行</p>
+                </div>
+            </li>
+            <li class="clear">
+                <img src="../images/bigworld/footer2.png" alt="">
+                <div>
+                    <p>专业保证</p>
+                    <p>我们收集穷游er的真实诉求，也找寻全世界最独特的旅行目的地，让更多的穷游er轻松出行</p>
+                </div>
+            </li>
+            <li class="clear">
+                <img src="../images/bigworld/footer3.png" alt="">
+                <div>
+                    <p>专业保证</p>
+                    <p>我们收集穷游er的真实诉求，也找寻全世界最独特的旅行目的地，让更多的穷游er轻松出行</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <footer id="  "></footer>
+    <div id="pop">
+        
+    </div>
+
+
+
+	<script>
+		seajs.config({
+			base:'./'
+		})
+		seajs.use('../js/ticket.js',function(ticket){
+			ticket.init();
+		})
+	</script>
+
+</body>
+</html>

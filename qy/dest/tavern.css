@@ -1,0 +1,299 @@
+.tavern-container .header-line {
+  padding-bottom: 20px;
+  border-bottom: 2px solid #d7d7d7;
+  margin-bottom: 20px;
+}
+.tavern-container .header-line .header-content {
+  width: 960px;
+  margin: 0px auto;
+}
+.tavern-container .header-line .header-content .catalog {
+  font-size: 12px;
+  line-height: 54px;
+}
+.tavern-container .header-line .header-content .catalog > a {
+  font-weight: bold;
+  color: #0073b6;
+}
+.tavern-container .header-line .header-content .catalog > span {
+  color: #636363;
+}
+.tavern-container .header-line .header-content .title > h2 {
+  float: left;
+  width: 250px;
+  line-height: 74px;
+  font-size: 38px;
+  color: #077345;
+  padding-left: 10px;
+}
+.tavern-container .header-line .header-content .title > div {
+  float: right;
+  width: 500px;
+  box-sizing: border-box;
+}
+.tavern-container .header-line .header-content .title > div > a {
+  float: left;
+  display: block;
+  width: 48px;
+  margin-right: 10px;
+  padding-top: 13px;
+}
+.tavern-container .header-line .header-content .title > div > a > img {
+  width: 100%;
+}
+.tavern-container .header-line .header-content .title > div > div {
+  float: left;
+  width: 440px;
+  max-height: 74px;
+  overflow: hidden;
+}
+.tavern-container .header-line .header-content .title > div > div > a {
+  font-size: 12px;
+  color: #0073b6;
+}
+.tavern-container .header-line .header-content .title > div > div > a:hover {
+  text-decoration: underline;
+}
+.tavern-container .header-line .header-content .title > div > div > span {
+  font-size: 12px;
+  color: #323232;
+}
+.tavern-container .tavern-content {
+  width: 980px;
+  margin: 0px auto;
+}
+.tavern-container .tavern-content .content-left {
+  float: left;
+  width: 680px;
+}
+.tavern-container .tavern-content .content-left > p {
+  margin-bottom: 20px;
+  color: #323232;
+  font-size: 14px;
+}
+.tavern-container .tavern-content .content-left .table-box > h3 {
+  font-size: 18px;
+  color: #636363;
+  margin-bottom: 20px;
+}
+.tavern-container .tavern-content .content-left .table-box #table {
+  border: 1px solid #d7d7d7;
+}
+.tavern-container .tavern-content .content-left .table-box #table .option {
+  background-color: #f5f5f5;
+}
+.tavern-container .tavern-content .content-left .table-box #table .option > li {
+  float: left;
+  border-bottom: 1px solid #d7d7d7;
+  border-left: 1px solid #f5f5f5;
+  border-right: 1px solid #f5f5f5;
+}
+.tavern-container .tavern-content .content-left .table-box #table .option > li:hover {
+  background-color: #fff;
+  border-left: 1px solid #d7d7d7;
+  border-right: 1px solid #d7d7d7;
+  border-bottom: none;
+}
+.tavern-container .tavern-content .content-left .table-box #table .option > li.active {
+  background-color: #fff;
+  border-left: 1px solid #d7d7d7;
+  border-right: 1px solid #d7d7d7;
+  border-bottom: none;
+}
+.tavern-container .tavern-content .content-left .table-box #table .option > li.active > a {
+  color: #147850;
+}
+.tavern-container .tavern-content .content-left .table-box #table .option > li > a {
+  letter-spacing: 1px;
+  font-size: 12px;
+  display: block;
+  padding: 0 15px;
+  color: #636363;
+  line-height: 32px;
+}
+.tavern-container .tavern-content .content-left .table-box #table #option-show > ul {
+  padding: 10px 0 10px 15px;
+  line-height: 24px;
+  float: left;
+  display: none;
+}
+.tavern-container .tavern-content .content-left .table-box #table #option-show > ul:first-child {
+  display: block;
+}
+.tavern-container .tavern-content .content-left .table-box #table #option-show > ul > li {
+  float: left;
+  width: 120px;
+  margin-right: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.tavern-container .tavern-content .content-left .table-box #table #option-show > ul > li a {
+  padding: 5px;
+  color: #0073b6;
+  font-size: 12px;
+}
+.tavern-container .tavern-content .content-left .img-box h3 {
+  font-size: 18px;
+  color: #636363;
+  line-height: 58px;
+}
+.tavern-container .tavern-content .content-left .img-box #img-content {
+  margin-left: -25px;
+}
+.tavern-container .tavern-content .content-left .img-box #img-content > li {
+  float: left;
+  width: 210px;
+  padding: 5px 5px 10px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  border: 1px solid #e5e5e5;
+}
+.tavern-container .tavern-content .content-left .img-box #img-content > li > a {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+.tavern-container .tavern-content .content-left .img-box #img-content > li > a > img {
+  width: 100%;
+}
+.tavern-container .tavern-content .content-left .img-box #img-content > li > a > span {
+  position: absolute;
+  left: 0px;
+  bottom: 10px;
+  display: inline-block;
+  background: #000;
+  padding: 2px 10px;
+  color: #fff;
+  font-weight: 700;
+  line-height: 20px;
+}
+.tavern-container .tavern-content .content-left .img-box #img-content > li > div > span {
+  float: left;
+  padding-top: 10px;
+  font-size: 14px;
+  padding-left: 5px;
+  color: #636363;
+}
+.tavern-container .tavern-content .content-left .img-box #img-content > li > div > div {
+  float: right;
+  line-height: 36px;
+}
+.tavern-container .tavern-content .content-left .img-box #img-content > li > div > div span {
+  color: #636363;
+}
+.tavern-container .tavern-content .content-left .img-box #img-content > li > div > div b {
+  font-size: 24px;
+  font-weight: 700;
+  color: #f26434;
+}
+.tavern-container .tavern-content .content-left .img-box #img-content > li button {
+  float: right;
+  background-color: #3f9f5f;
+  color: #fff;
+  height: 24px;
+  padding: 0 13px;
+  border: none;
+  border-radius: 3px;
+  line-height: 24px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.tavern-container .tavern-content .content-left .img-box #img-content > li button:hover {
+  background-color: #5cad77;
+}
+.tavern-container .tavern-content .content-right {
+  float: right;
+  width: 270px;
+}
+.tavern-container .tavern-content .content-right .floor1 {
+  width: 270px;
+}
+.tavern-container .tavern-content .content-right .floor1 img {
+  width: 100%;
+}
+.tavern-container .tavern-content .content-right .floor2 {
+  margin-top: 15px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #d7d7d7;
+}
+.tavern-container .tavern-content .content-right .floor2 > ul > li {
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 0px 7px 0px;
+  box-sizing: border-box;
+}
+.tavern-container .tavern-content .content-right .floor2 > ul > li > img {
+  width: 100%;
+  margin: 0px auto;
+}
+.tavern-container .tavern-content .content-right .floor2 > ul > li p {
+  font-size: 12px;
+  color: #636363;
+  padding-top: 9px;
+  line-height: 14px;
+}
+.tavern-container .tavern-content .content-right .floor3 {
+  padding-bottom: 30px;
+  border-bottom: 2px solid #d7d7d7;
+}
+.tavern-container .tavern-content .content-right .floor3 h3 {
+  font-size: 18px;
+  color: #636363;
+  margin-top: 25px;
+  margin-bottom: 6px;
+}
+.tavern-container .tavern-content .content-right .floor3 > ul > li {
+  border-bottom: 1px solid #ececec;
+  padding: 10px 0px;
+}
+.tavern-container .tavern-content .content-right .floor3 > ul > li:last-child {
+  border: none;
+  padding-bottom: 0px;
+}
+.tavern-container .tavern-content .content-right .floor3 > ul > li h4 {
+  color: #0073b6;
+}
+.tavern-container .tavern-content .content-right .floor3 > ul > li h4:hover {
+  text-decoration: underline;
+  font-size: 14px;
+}
+.tavern-container .tavern-content .content-right .floor3 > ul > li > span {
+  float: left;
+  font-size: 12px;
+  color: #636363;
+  line-height: 26px;
+}
+.tavern-container .tavern-content .content-right .floor3 > ul > li div {
+  float: right;
+}
+.tavern-container .tavern-content .content-right .floor3 > ul > li div > span {
+  font-size: 12px;
+  color: #636363;
+  line-height: 16px;
+}
+.tavern-container .tavern-content .content-right .floor3 > ul > li div b {
+  font-size: 20px;
+  font-weight: 700;
+  color: #f26434;
+}
+.tavern-container .tavern-content .content-right .floor4 {
+  margin-top: 25px;
+  width: 100%;
+  background: url('../images/tavern/right_img_apply.png') no-repeat;
+  padding-left: 100px;
+}
+.tavern-container .tavern-content .content-right .floor4 p {
+  font-size: 14px;
+  color: #636363;
+  line-height: 17px;
+}
+.tavern-container .tavern-content .content-right .floor4 a {
+  font-size: 12px;
+  color: #0073b6;
+  line-height: 17px;
+}
+.tavern-container .tavern-content .content-right .floor4 a:hover {
+  text-decoration: underline;
+}

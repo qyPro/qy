@@ -1,0 +1,1246 @@
+{
+  "resultCode": "0000",
+  "country": [
+    {
+      "continentCn": "亚洲",
+      "continentEn": "Asia",
+      "list": [
+        {
+          "nameCn": "阿富汗",
+          "nameEn": "Afghanistan",
+          "hot": 0
+        },
+        {
+          "nameCn": "阿联酋",
+          "nameEn": "United Arab Emirates",
+          "hot": 1
+        },
+        {
+          "nameCn": "阿曼",
+          "nameEn": "Oman",
+          "hot": 0
+        },
+        {
+          "nameCn": "巴基斯坦",
+          "nameEn": "Pakistan",
+          "hot": 0
+        },
+        {
+          "nameCn": "巴勒斯坦",
+          "nameEn": "Palestine",
+          "hot": 0
+        },
+        {
+          "nameCn": "巴林",
+          "nameEn": "Bahrain",
+          "hot": 0
+        },
+        {
+          "nameCn": "不丹",
+          "nameEn": "Bhutan",
+          "hot": 0
+        },
+        {
+          "nameCn": "朝鲜",
+          "nameEn": "North Korea",
+          "hot": 0
+        },
+        {
+          "nameCn": "东帝汶",
+          "nameEn": "East Timor",
+          "hot": 0
+        },
+        {
+          "nameCn": "菲律宾",
+          "nameEn": "Philippines",
+          "hot": 1
+        },
+        {
+          "nameCn": "韩国",
+          "nameEn": "South Korea",
+          "hot": 1
+        },
+        {
+          "nameCn": "哈萨克斯坦",
+          "nameEn": "Kazakhstan",
+          "hot": 0
+        },
+        {
+          "nameCn": "柬埔寨",
+          "nameEn": "Cambodia",
+          "hot": 1
+        },
+        {
+          "nameCn": "吉尔吉斯斯坦",
+          "nameEn": "Kyrgyzstan",
+          "hot": 0
+        },
+        {
+          "nameCn": "卡塔尔",
+          "nameEn": "Qatar",
+          "hot": 0
+        },
+        {
+          "nameCn": "科威特",
+          "nameEn": "Kuwait",
+          "hot": 0
+        },
+        {
+          "nameCn": "老挝",
+          "nameEn": "Laos",
+          "hot": 1
+        },
+        {
+          "nameCn": "黎巴嫩",
+          "nameEn": "Lebanon",
+          "hot": 0
+        },
+        {
+          "nameCn": "马尔代夫",
+          "nameEn": "Maldives",
+          "hot": 1
+        },
+        {
+          "nameCn": "马来西亚",
+          "nameEn": "Malaysia",
+          "hot": 1
+        },
+        {
+          "nameCn": "蒙古",
+          "nameEn": "Mongolia",
+          "hot": 0
+        },
+        {
+          "nameCn": "孟加拉国",
+          "nameEn": "Bangladesh",
+          "hot": 0
+        },
+        {
+          "nameCn": "缅甸",
+          "nameEn": "Myanmar",
+          "hot": 1
+        },
+        {
+          "nameCn": "尼泊尔",
+          "nameEn": "Nepal",
+          "hot": 1
+        },
+        {
+          "nameCn": "日本",
+          "nameEn": "Japan",
+          "hot": 1
+        },
+        {
+          "nameCn": "沙特阿拉伯",
+          "nameEn": "Saudi Arabia",
+          "hot": 0
+        },
+        {
+          "nameCn": "斯里兰卡",
+          "nameEn": "Sri Lanka",
+          "hot": 1
+        },
+        {
+          "nameCn": "泰国",
+          "nameEn": "Thailand",
+          "hot": 1
+        },
+        {
+          "nameCn": "塔吉克斯坦",
+          "nameEn": "Tajikistan",
+          "hot": 0
+        },
+        {
+          "nameCn": "土库曼斯坦",
+          "nameEn": "Turkmenistan",
+          "hot": 0
+        },
+        {
+          "nameCn": "文莱",
+          "nameEn": "Brunei",
+          "hot": 0
+        },
+        {
+          "nameCn": "乌兹别克斯坦",
+          "nameEn": "Uzbekistan",
+          "hot": 0
+        },
+        {
+          "nameCn": "新加坡",
+          "nameEn": "Singapore",
+          "hot": 1
+        },
+        {
+          "nameCn": "叙利亚",
+          "nameEn": "Syria",
+          "hot": 0
+        },
+        {
+          "nameCn": "也门",
+          "nameEn": "Yemen",
+          "hot": 0
+        },
+        {
+          "nameCn": "伊拉克",
+          "nameEn": "Iraq",
+          "hot": 0
+        },
+        {
+          "nameCn": "伊朗",
+          "nameEn": "Iran",
+          "hot": 1
+        },
+        {
+          "nameCn": "印度",
+          "nameEn": "India",
+          "hot": 1
+        },
+        {
+          "nameCn": "印度尼西亚",
+          "nameEn": "Indonesia",
+          "hot": 1
+        },
+        {
+          "nameCn": "英属印度洋领地",
+          "nameEn": "British Indian Ocean Territory",
+          "hot": 0
+        },
+        {
+          "nameCn": "以色列",
+          "nameEn": "Israel",
+          "hot": 0
+        },
+        {
+          "nameCn": "约旦",
+          "nameEn": "Jordan",
+          "hot": 0
+        },
+        {
+          "nameCn": "越南",
+          "nameEn": "Vietnam",
+          "hot": 1
+        },
+        {
+          "nameCn": "中国",
+          "nameEn": "China",
+          "hot": 1
+        }
+      ]
+    },
+    {
+      "continentCn": "欧洲",
+      "continentEn": "Europe",
+      "list": [
+        {
+          "nameCn": "阿尔巴尼亚",
+          "nameEn": "Albania",
+          "hot": 0
+        },
+        {
+          "nameCn": "爱尔兰",
+          "nameEn": "Ireland",
+          "hot": 0
+        },
+        {
+          "nameCn": "爱沙尼亚",
+          "nameEn": "Estonia",
+          "hot": 0
+        },
+        {
+          "nameCn": "安道尔",
+          "nameEn": "Andorra",
+          "hot": 0
+        },
+        {
+          "nameCn": "奥地利",
+          "nameEn": "Austria",
+          "hot": 1
+        },
+        {
+          "nameCn": "阿塞拜疆",
+          "nameEn": "Azerbaijan",
+          "hot": 0
+        },
+        {
+          "nameCn": "白俄罗斯",
+          "nameEn": "Belarus",
+          "hot": 0
+        },
+        {
+          "nameCn": "保加利亚",
+          "nameEn": "Bulgaria",
+          "hot": 0
+        },
+        {
+          "nameCn": "比利时",
+          "nameEn": "Belgium",
+          "hot": 1
+        },
+        {
+          "nameCn": "冰岛",
+          "nameEn": "Iceland",
+          "hot": 1
+        },
+        {
+          "nameCn": "波黑",
+          "nameEn": "Bosnia & Herzegovina",
+          "hot": 0
+        },
+        {
+          "nameCn": "波兰",
+          "nameEn": "Poland",
+          "hot": 1
+        },
+        {
+          "nameCn": "丹麦",
+          "nameEn": "Denmark",
+          "hot": 1
+        },
+        {
+          "nameCn": "德国",
+          "nameEn": "Germany",
+          "hot": 1
+        },
+        {
+          "nameCn": "俄罗斯",
+          "nameEn": "Russia",
+          "hot": 1
+        },
+        {
+          "nameCn": "法国",
+          "nameEn": "France",
+          "hot": 1
+        },
+        {
+          "nameCn": "法罗群岛",
+          "nameEn": "Faroe Islands",
+          "hot": 0
+        },
+        {
+          "nameCn": "梵蒂冈",
+          "nameEn": "Vatican",
+          "hot": 1
+        },
+        {
+          "nameCn": "芬兰",
+          "nameEn": "Finland",
+          "hot": 1
+        },
+        {
+          "nameCn": "格陵兰",
+          "nameEn": "Greenland",
+          "hot": 0
+        },
+        {
+          "nameCn": "格鲁吉亚",
+          "nameEn": "Georgia",
+          "hot": 0
+        },
+        {
+          "nameCn": "黑山",
+          "nameEn": "Montenegro",
+          "hot": 0
+        },
+        {
+          "nameCn": "荷兰",
+          "nameEn": "Netherlands",
+          "hot": 1
+        },
+        {
+          "nameCn": "捷克",
+          "nameEn": "Czech Republic",
+          "hot": 1
+        },
+        {
+          "nameCn": "克罗地亚",
+          "nameEn": "Croatia",
+          "hot": 0
+        },
+        {
+          "nameCn": "科索沃",
+          "nameEn": "Kosovo",
+          "hot": 0
+        },
+        {
+          "nameCn": "拉脱维亚",
+          "nameEn": "Latvia",
+          "hot": 0
+        },
+        {
+          "nameCn": "列支敦士登",
+          "nameEn": "Liechtenstein",
+          "hot": 0
+        },
+        {
+          "nameCn": "立陶宛",
+          "nameEn": "Lithuania",
+          "hot": 0
+        },
+        {
+          "nameCn": "罗马尼亚",
+          "nameEn": "Romania",
+          "hot": 0
+        },
+        {
+          "nameCn": "卢森堡",
+          "nameEn": "Luxembourg",
+          "hot": 1
+        },
+        {
+          "nameCn": "马耳他",
+          "nameEn": "Malta",
+          "hot": 0
+        },
+        {
+          "nameCn": "马其顿",
+          "nameEn": "Macedonia",
+          "hot": 0
+        },
+        {
+          "nameCn": "摩尔多瓦",
+          "nameEn": "Moldova",
+          "hot": 0
+        },
+        {
+          "nameCn": "摩纳哥",
+          "nameEn": "Monaco",
+          "hot": 1
+        },
+        {
+          "nameCn": "挪威",
+          "nameEn": "Norway",
+          "hot": 1
+        },
+        {
+          "nameCn": "葡萄牙",
+          "nameEn": "Portugal",
+          "hot": 1
+        },
+        {
+          "nameCn": "瑞典",
+          "nameEn": "Sweden",
+          "hot": 1
+        },
+        {
+          "nameCn": "瑞士",
+          "nameEn": "Switzerland",
+          "hot": 1
+        },
+        {
+          "nameCn": "塞尔维亚",
+          "nameEn": "Serbia",
+          "hot": 0
+        },
+        {
+          "nameCn": "塞浦路斯",
+          "nameEn": "Cyprus",
+          "hot": 0
+        },
+        {
+          "nameCn": "圣马力诺",
+          "nameEn": "San Marino",
+          "hot": 0
+        },
+        {
+          "nameCn": "斯洛伐克",
+          "nameEn": "Slovakia",
+          "hot": 1
+        },
+        {
+          "nameCn": "斯洛文尼亚",
+          "nameEn": "Slovenia",
+          "hot": 0
+        },
+        {
+          "nameCn": "土耳其",
+          "nameEn": "Turkey",
+          "hot": 1
+        },
+        {
+          "nameCn": "乌克兰",
+          "nameEn": "Ukraine",
+          "hot": 0
+        },
+        {
+          "nameCn": "西班牙",
+          "nameEn": "Spain",
+          "hot": 1
+        },
+        {
+          "nameCn": "希腊",
+          "nameEn": "Greece",
+          "hot": 1
+        },
+        {
+          "nameCn": "西兰公国",
+          "nameEn": "Principality of Sealand",
+          "hot": 0
+        },
+        {
+          "nameCn": "匈牙利",
+          "nameEn": "Hungary",
+          "hot": 1
+        },
+        {
+          "nameCn": "亚美尼亚",
+          "nameEn": "Armenia",
+          "hot": 0
+        },
+        {
+          "nameCn": "意大利",
+          "nameEn": "Italy",
+          "hot": 1
+        },
+        {
+          "nameCn": "英国",
+          "nameEn": "UK",
+          "hot": 1
+        },
+        {
+          "nameCn": "直布罗陀",
+          "nameEn": "Gibraltar",
+          "hot": 0
+        }
+      ]
+    },
+    {
+      "continentCn": "非洲",
+      "continentEn": "Africa",
+      "list": [
+        {
+          "nameCn": "阿尔及利亚",
+          "nameEn": "Algeria",
+          "hot": 0
+        },
+        {
+          "nameCn": "埃及",
+          "nameEn": "Egypt",
+          "hot": 1
+        },
+        {
+          "nameCn": "埃塞俄比亚",
+          "nameEn": "Ethiopia",
+          "hot": 0
+        },
+        {
+          "nameCn": "安哥拉",
+          "nameEn": "Angola",
+          "hot": 0
+        },
+        {
+          "nameCn": "阿森松",
+          "nameEn": "Ascension",
+          "hot": 0
+        },
+        {
+          "nameCn": "贝宁",
+          "nameEn": "Benin",
+          "hot": 0
+        },
+        {
+          "nameCn": "北苏丹王国",
+          "nameEn": "Kingdom of North Sudan",
+          "hot": 0
+        },
+        {
+          "nameCn": "博茨瓦纳",
+          "nameEn": "Botswana",
+          "hot": 0
+        },
+        {
+          "nameCn": "布基纳法索",
+          "nameEn": "Burkina Faso",
+          "hot": 0
+        },
+        {
+          "nameCn": "布隆迪",
+          "nameEn": "Burundi",
+          "hot": 0
+        },
+        {
+          "nameCn": "赤道几内亚",
+          "nameEn": "Equatorial Guinea",
+          "hot": 0
+        },
+        {
+          "nameCn": "佛得角",
+          "nameEn": "Cape Verde",
+          "hot": 0
+        },
+        {
+          "nameCn": "多哥",
+          "nameEn": "Togo",
+          "hot": 0
+        },
+        {
+          "nameCn": "厄立特里亚",
+          "nameEn": "Eritrea",
+          "hot": 0
+        },
+        {
+          "nameCn": "冈比亚",
+          "nameEn": "Gambia",
+          "hot": 0
+        },
+        {
+          "nameCn": "刚果",
+          "nameEn": "Congo-Brazzaville",
+          "hot": 0
+        },
+        {
+          "nameCn": "刚果民主共和国",
+          "nameEn": "Congo-Kinshasa",
+          "hot": 0
+        },
+        {
+          "nameCn": "加纳",
+          "nameEn": "Ghana",
+          "hot": 0
+        },
+        {
+          "nameCn": "加蓬",
+          "nameEn": "Gabon",
+          "hot": 0
+        },
+        {
+          "nameCn": "吉布提",
+          "nameEn": "Djibouti",
+          "hot": 0
+        },
+        {
+          "nameCn": "津巴布韦",
+          "nameEn": "Zimbabwe",
+          "hot": 0
+        },
+        {
+          "nameCn": "几内亚",
+          "nameEn": "Guinea",
+          "hot": 0
+        },
+        {
+          "nameCn": "几内亚比绍",
+          "nameEn": "Guinea Bissau",
+          "hot": 0
+        },
+        {
+          "nameCn": "喀麦隆",
+          "nameEn": "Cameroon",
+          "hot": 0
+        },
+        {
+          "nameCn": "科摩罗",
+          "nameEn": "Comoros",
+          "hot": 0
+        },
+        {
+          "nameCn": "肯尼亚",
+          "nameEn": "Kenya",
+          "hot": 0
+        },
+        {
+          "nameCn": "科特迪瓦",
+          "nameEn": "Cote Divoire",
+          "hot": 0
+        },
+        {
+          "nameCn": "莱索托",
+          "nameEn": "Lesotho",
+          "hot": 0
+        },
+        {
+          "nameCn": "利比里亚",
+          "nameEn": "Liberia",
+          "hot": 0
+        },
+        {
+          "nameCn": "利比亚",
+          "nameEn": "Libya",
+          "hot": 0
+        },
+        {
+          "nameCn": "留尼汪",
+          "nameEn": "Reunion",
+          "hot": 0
+        },
+        {
+          "nameCn": "卢旺达",
+          "nameEn": "Rwanda",
+          "hot": 0
+        },
+        {
+          "nameCn": "马达加斯加",
+          "nameEn": "Madagascar",
+          "hot": 0
+        },
+        {
+          "nameCn": "马拉维",
+          "nameEn": "Malawi",
+          "hot": 0
+        },
+        {
+          "nameCn": "马里",
+          "nameEn": "Mali",
+          "hot": 0
+        },
+        {
+          "nameCn": "毛里求斯",
+          "nameEn": "Mauritius",
+          "hot": 0
+        },
+        {
+          "nameCn": "毛里塔尼亚",
+          "nameEn": "Mauritania",
+          "hot": 0
+        },
+        {
+          "nameCn": "马约特",
+          "nameEn": "Mayotte",
+          "hot": 0
+        },
+        {
+          "nameCn": "摩洛哥",
+          "nameEn": "Morocco",
+          "hot": 1
+        },
+        {
+          "nameCn": "莫桑比克",
+          "nameEn": "Mozambique",
+          "hot": 0
+        },
+        {
+          "nameCn": "纳米比亚",
+          "nameEn": "Namibia",
+          "hot": 0
+        },
+        {
+          "nameCn": "南非",
+          "nameEn": "South Africa",
+          "hot": 0
+        },
+        {
+          "nameCn": "南苏丹",
+          "nameEn": "South Sudan",
+          "hot": 0
+        },
+        {
+          "nameCn": "尼日尔",
+          "nameEn": "Niger",
+          "hot": 0
+        },
+        {
+          "nameCn": "尼日利亚",
+          "nameEn": "Nigeria",
+          "hot": 0
+        },
+        {
+          "nameCn": "塞拉利昂",
+          "nameEn": "Sierra Leone",
+          "hot": 0
+        },
+        {
+          "nameCn": "塞内加尔",
+          "nameEn": "Senegal",
+          "hot": 0
+        },
+        {
+          "nameCn": "塞舌尔",
+          "nameEn": "Seychelles",
+          "hot": 0
+        },
+        {
+          "nameCn": "圣多美和普林西比",
+          "nameEn": "Sao Tome & Principe",
+          "hot": 0
+        },
+        {
+          "nameCn": "圣赫勒拿",
+          "nameEn": "Saint Helena",
+          "hot": 0
+        },
+        {
+          "nameCn": "斯威士兰",
+          "nameEn": "Swaziland",
+          "hot": 0
+        },
+        {
+          "nameCn": "苏丹",
+          "nameEn": "Sudan",
+          "hot": 0
+        },
+        {
+          "nameCn": "索马里",
+          "nameEn": "Somalia",
+          "hot": 0
+        },
+        {
+          "nameCn": "坦桑尼亚",
+          "nameEn": "Tanzania",
+          "hot": 0
+        },
+        {
+          "nameCn": "特里斯坦-达库尼亚群岛",
+          "nameEn": "Tristan da Cunha",
+          "hot": 0
+        },
+        {
+          "nameCn": "突尼斯",
+          "nameEn": "Tunisia",
+          "hot": 0
+        },
+        {
+          "nameCn": "乌干达",
+          "nameEn": "Uganda",
+          "hot": 0
+        },
+        {
+          "nameCn": "西撒哈拉",
+          "nameEn": "Western Sahara",
+          "hot": 0
+        },
+        {
+          "nameCn": "赞比亚",
+          "nameEn": "Zambia",
+          "hot": 0
+        },
+        {
+          "nameCn": "乍得",
+          "nameEn": "Chad",
+          "hot": 0
+        },
+        {
+          "nameCn": "中非共和国",
+          "nameEn": "Central African Republic",
+          "hot": 0
+        }
+      ]
+    },
+    {
+      "continentCn": "北美",
+      "continentEn": "North America",
+      "list": [
+        {
+          "nameCn": "安圭拉",
+          "nameEn": "Anguilla",
+          "hot": 0
+        },
+        {
+          "nameCn": "安提瓜和巴布达",
+          "nameEn": "Antigua & Barbuda",
+          "hot": 0
+        },
+        {
+          "nameCn": "巴巴多斯",
+          "nameEn": "Barbados",
+          "hot": 0
+        },
+        {
+          "nameCn": "巴哈马",
+          "nameEn": "The Bahamas",
+          "hot": 0
+        },
+        {
+          "nameCn": "百慕大",
+          "nameEn": "Bermuda",
+          "hot": 0
+        },
+        {
+          "nameCn": "巴拿马",
+          "nameEn": "Panama",
+          "hot": 0
+        },
+        {
+          "nameCn": "波多黎各",
+          "nameEn": "Puerto Rico",
+          "hot": 0
+        },
+        {
+          "nameCn": "伯利兹",
+          "nameEn": "Belize",
+          "hot": 0
+        },
+        {
+          "nameCn": "阿鲁巴",
+          "nameEn": "Aruba",
+          "hot": 0
+        },
+        {
+          "nameCn": "波内赫",
+          "nameEn": "Bonaire",
+          "hot": 0
+        },
+        {
+          "nameCn": "多米尼加共和国",
+          "nameEn": "Dominican Republic",
+          "hot": 0
+        },
+        {
+          "nameCn": "多米尼克",
+          "nameEn": "Dominica",
+          "hot": 0
+        },
+        {
+          "nameCn": "法属圣马丁",
+          "nameEn": "Saint Martin",
+          "hot": 0
+        },
+        {
+          "nameCn": "格林纳达",
+          "nameEn": "Grenada",
+          "hot": 0
+        },
+        {
+          "nameCn": "哥斯达黎加",
+          "nameEn": "Costa Rica",
+          "hot": 0
+        },
+        {
+          "nameCn": "瓜德罗普",
+          "nameEn": "Guadeloupe",
+          "hot": 0
+        },
+        {
+          "nameCn": "古巴",
+          "nameEn": "Cuba",
+          "hot": 0
+        },
+        {
+          "nameCn": "海地",
+          "nameEn": "Haiti",
+          "hot": 0
+        },
+        {
+          "nameCn": "荷属圣马丁",
+          "nameEn": "Sint Maarten",
+          "hot": 0
+        },
+        {
+          "nameCn": "洪都拉斯",
+          "nameEn": "Honduras",
+          "hot": 0
+        },
+        {
+          "nameCn": "加拿大",
+          "nameEn": "Canada",
+          "hot": 1
+        },
+        {
+          "nameCn": "开曼群岛",
+          "nameEn": "Cayman Islands",
+          "hot": 0
+        },
+        {
+          "nameCn": "库拉索",
+          "nameEn": "Curacao",
+          "hot": 0
+        },
+        {
+          "nameCn": "马提尼克",
+          "nameEn": "Martinique",
+          "hot": 0
+        },
+        {
+          "nameCn": "美国",
+          "nameEn": "USA",
+          "hot": 1
+        },
+        {
+          "nameCn": "美属维尔京群岛",
+          "nameEn": "US Virgin Islands",
+          "hot": 0
+        },
+        {
+          "nameCn": "蒙塞拉特岛",
+          "nameEn": "Montserrat",
+          "hot": 0
+        },
+        {
+          "nameCn": "墨西哥",
+          "nameEn": "Mexico",
+          "hot": 1
+        },
+        {
+          "nameCn": "尼加拉瓜",
+          "nameEn": "Nicaragua",
+          "hot": 0
+        },
+        {
+          "nameCn": "萨巴岛",
+          "nameEn": "Saba",
+          "hot": 0
+        },
+        {
+          "nameCn": "萨尔瓦多",
+          "nameEn": "El Salvador",
+          "hot": 0
+        },
+        {
+          "nameCn": "圣巴泰勒米岛",
+          "nameEn": "Saint-Barthelemy",
+          "hot": 0
+        },
+        {
+          "nameCn": "圣基茨和尼维斯",
+          "nameEn": "Saint Kitts and Nevis",
+          "hot": 0
+        },
+        {
+          "nameCn": "圣卢西亚",
+          "nameEn": "St Lucia",
+          "hot": 0
+        },
+        {
+          "nameCn": "圣皮埃尔和密克隆群岛",
+          "nameEn": "Saint Pierre et Miquelon",
+          "hot": 0
+        },
+        {
+          "nameCn": "圣文森特和格林纳丁斯",
+          "nameEn": "St Vincent & The Grenadines",
+          "hot": 0
+        },
+        {
+          "nameCn": "圣尤斯特歇斯",
+          "nameEn": "Sint Eustatius",
+          "hot": 0
+        },
+        {
+          "nameCn": "特克斯和凯科斯群岛",
+          "nameEn": "Turks & Caicos Islands",
+          "hot": 0
+        },
+        {
+          "nameCn": "特立尼达和多巴哥",
+          "nameEn": "Trinidad & Tobago",
+          "hot": 0
+        },
+        {
+          "nameCn": "危地马拉",
+          "nameEn": "Guatemala",
+          "hot": 0
+        },
+        {
+          "nameCn": "牙买加",
+          "nameEn": "Jamaica",
+          "hot": 0
+        },
+        {
+          "nameCn": "英属维尔京群岛",
+          "nameEn": "British Virgin Islands",
+          "hot": 0
+        }
+      ]
+    },
+    {
+      "continentCn": "南美",
+      "continentEn": "South America",
+      "list": [
+        {
+          "nameCn": "阿根廷",
+          "nameEn": "Argentina",
+          "hot": 0
+        },
+        {
+          "nameCn": "巴拉圭",
+          "nameEn": "Paraguay",
+          "hot": 0
+        },
+        {
+          "nameCn": "巴西",
+          "nameEn": "Brazil",
+          "hot": 0
+        },
+        {
+          "nameCn": "秘鲁",
+          "nameEn": "Peru",
+          "hot": 0
+        },
+        {
+          "nameCn": "玻利维亚",
+          "nameEn": "Bolivia",
+          "hot": 0
+        },
+        {
+          "nameCn": "厄瓜多尔",
+          "nameEn": "Ecuador",
+          "hot": 0
+        },
+        {
+          "nameCn": "法属圭亚那",
+          "nameEn": "French Guiana",
+          "hot": 0
+        },
+        {
+          "nameCn": "福克兰群岛（马尔维纳斯群岛）",
+          "nameEn": "Falkland Islands",
+          "hot": 0
+        },
+        {
+          "nameCn": "哥伦比亚",
+          "nameEn": "Colombia",
+          "hot": 0
+        },
+        {
+          "nameCn": "圭亚那",
+          "nameEn": "Guyana",
+          "hot": 0
+        },
+        {
+          "nameCn": "苏里南",
+          "nameEn": "Suriname",
+          "hot": 0
+        },
+        {
+          "nameCn": "委内瑞拉",
+          "nameEn": "Venezuela",
+          "hot": 0
+        },
+        {
+          "nameCn": "乌拉圭",
+          "nameEn": "Uruguay",
+          "hot": 0
+        },
+        {
+          "nameCn": "智利",
+          "nameEn": "Chile",
+          "hot": 0
+        }
+      ]
+    },
+    {
+      "continentCn": "大洋洲",
+      "continentEn": "Oceania",
+      "list": [
+        {
+          "nameCn": "艾普罗菲尔",
+          "nameEn": "Apolofirl",
+          "hot": 0
+        },
+        {
+          "nameCn": "澳大利亚",
+          "nameEn": "Australia",
+          "hot": 1
+        },
+        {
+          "nameCn": "巴布亚新几内亚",
+          "nameEn": "Papua New Guinea",
+          "hot": 0
+        },
+        {
+          "nameCn": "北马里亚纳群岛",
+          "nameEn": "Northern Mariana Islands",
+          "hot": 0
+        },
+        {
+          "nameCn": "法属波利尼西亚",
+          "nameEn": "French Polynesia",
+          "hot": 0
+        },
+        {
+          "nameCn": "斐济",
+          "nameEn": "Fiji",
+          "hot": 0
+        },
+        {
+          "nameCn": "关岛",
+          "nameEn": "Guam",
+          "hot": 0
+        },
+        {
+          "nameCn": "基里巴斯",
+          "nameEn": "Kiribati",
+          "hot": 0
+        },
+        {
+          "nameCn": "库克群岛",
+          "nameEn": "The Cook Islands",
+          "hot": 0
+        },
+        {
+          "nameCn": "马绍尔群岛",
+          "nameEn": "Marshall Islands",
+          "hot": 0
+        },
+        {
+          "nameCn": "美属萨摩亚",
+          "nameEn": "American Samoa",
+          "hot": 0
+        },
+        {
+          "nameCn": "密克罗尼西亚联邦",
+          "nameEn": "Federated States Of  Micronesia",
+          "hot": 0
+        },
+        {
+          "nameCn": "瑙鲁",
+          "nameEn": "Nauru",
+          "hot": 0
+        },
+        {
+          "nameCn": "纽埃",
+          "nameEn": "Niue",
+          "hot": 0
+        },
+        {
+          "nameCn": "帕劳",
+          "nameEn": "Palau",
+          "hot": 0
+        },
+        {
+          "nameCn": "皮特凯恩群岛",
+          "nameEn": "Pitcairn Islands",
+          "hot": 0
+        },
+        {
+          "nameCn": "萨摩亚",
+          "nameEn": "Samoa",
+          "hot": 0
+        },
+        {
+          "nameCn": "所罗门群岛",
+          "nameEn": "Solomon Islands",
+          "hot": 0
+        },
+        {
+          "nameCn": "汤加",
+          "nameEn": "Tonga",
+          "hot": 0
+        },
+        {
+          "nameCn": "托克劳",
+          "nameEn": "Tokelau",
+          "hot": 0
+        },
+        {
+          "nameCn": "图瓦卢",
+          "nameEn": "Tuvalu",
+          "hot": 0
+        },
+        {
+          "nameCn": "瓦利斯群岛和富图纳群岛",
+          "nameEn": "Wallis & Futuna",
+          "hot": 0
+        },
+        {
+          "nameCn": "瓦努阿图",
+          "nameEn": "Vanuatu",
+          "hot": 0
+        },
+        {
+          "nameCn": "新喀里多尼亚",
+          "nameEn": "New Caledonia",
+          "hot": 0
+        },
+        {
+          "nameCn": "新西兰",
+          "nameEn": "New Zealand",
+          "hot": 1
+        }
+      ]
+    },
+    {
+      "continentCn": "南极洲",
+      "continentEn": "Antarctica",
+      "list": []
+    }
+  ]
+}

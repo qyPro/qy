@@ -1,4 +1,4 @@
-define(function(require,exports,module)){
+define(function(require,exports,module){
     var community = {
         init: function() {
             this.dealSlide();
@@ -8,15 +8,11 @@ define(function(require,exports,module)){
             // this.dealLocation();
             this.events();
             this.dealEwm();
-            var head_foot=require('./head_foot.js');
-            var pop=require('./pop.js');
-            head_foot.init();
-            pop.init();
+           
         },
         dealAjax:function(){
             $.ajax({
                 url: "../json/community.json",
-              
                 success: function(res) {
                     // console.log(res);
                     var tab1 = res.tab1;
@@ -136,10 +132,6 @@ define(function(require,exports,module)){
                 $('.imgeer').hide(); 
             })
         }
-
-
-
-
     }
     // community.init();
     module.exports=community;

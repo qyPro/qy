@@ -1,0 +1,56 @@
+.mail-container {
+  width: 100%;
+}
+.mail-container .top {
+  width: 1160px;
+  height: 80px;
+  margin: 0px auto;
+}
+.mail-container .top > a {
+  float: left;
+  display: block;
+  width: 118px;
+  padding-top: 20px;
+}
+.mail-container .top > a img {
+  width: 100%;
+}
+.mail-container .top .search {
+  float: left;
+  padding-top: 20px;
+  margin-left: 60px;
+}
+.mail-container .top .search > input {
+  width: 615px;
+  height: 40px;
+  padding: 0 25px 0 43px;
+  border: none;
+  border-radius: 20px;
+  background-color: #f0f0f0;
+  font-size: 14px;
+  color: #636363;
+}
+.mail-container .top .me {
+  float: left;
+  margin-left: 65px;
+}
+.mail-container .top .me > p {
+  display: inline-block;
+}
+.mail-container .top .me > p .iconfont {
+  color: #45c79f;
+}
+.mail-container .top .me > p span {
+  font-size: 12px;
+  color: #bbbbbb;
+  line-height: 80px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.mail-container .top .me > p .line {
+  font-weight: 100;
+  width: 1px;
+  height: 26px;
+  background-color: #e6e6e6;
+  margin: 0px 12px;
+}

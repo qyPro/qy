@@ -12,7 +12,7 @@
 				"city":"澳门",
 				"money":"455",
 				"desc":"元起",
-				"img":"images/index03.jpg",
+				"img":"../images/index03.jpg",
 				"tag":"折扣",
 				"tagicon":"&#xe698;"
 			},
@@ -21,7 +21,7 @@
 				"city":"东京,关东地方,大阪,关西地方,冲绳,冲绳市,名古屋,爱知县",
 				"money":"799",
 				"desc":"元起",
-				"img":"images/index002.jpg",
+				"img":"../images/index002.jpg",
 				"tag":"折扣",
 				"tagicon":"&#xe698;"
 			},
@@ -30,7 +30,7 @@
 				"city":"迪拜美食",
 				"money":"",
 				"desc":"当地美食排名第4",
-				"img":"images/index003.jpg",
+				"img":"../images/index003.jpg",
 				"tag":"美食",
 				"tagicon":"&#xe603;"
 			},
@@ -39,7 +39,7 @@
 				"city":"司狼家的米米",
 				"money":"",
 				"desc":"推荐了18个目的地",
-				"img":"images/index004.jpg",
+				"img":"../images/index004.jpg",
 				"tag":"锦囊",
 				"tagicon":"&#xe603;"
 			},
@@ -48,7 +48,7 @@
 				"city":"万荣景点",
 				"money":"",
 				"desc":"当地景点排名第2",
-				"img":"images/index005.jpg",
+				"img":"../images/index005.jpg",
 				"tag":"景点",
 				"tagicon":"&#xe697;"
 			},
@@ -57,7 +57,7 @@
 				"city":"印度城市",
 				"money":"",
 				"desc":"8616个人去过这里",
-				"img":"images/index006.jpg",
+				"img":"../images/index006.jpg",
 				"tag":"城市",
 				"tagicon":"&#xe6a4;"
 			},
@@ -66,7 +66,7 @@
 				"city":"Lisa_在路上",
 				"money":"",
 				"desc":"24285人浏览过",
-				"img":"images/index007.jpg",
+				"img":"../images/index007.jpg",
 				"tag":"游记",
 				"tagicon":"&#xe614;"
 			},
@@ -75,7 +75,7 @@
 				"city":"东京,关东地方,大阪,关西地方,名古屋,爱知县,札幌,北海道",
 				"money":"509",
 				"desc":"元起",
-				"img":"images/index008.jpg",
+				"img":"../images/index008.jpg",
 				"tag":"折扣",
 				"tagicon":"&#xe698;"
 			},
@@ -84,7 +84,7 @@
 				"city":"新加坡",
 				"money":"2899",
 				"desc":"元起",
-				"img":"images/index009.jpg",
+				"img":"../images/index009.jpg",
 				"tag":"折扣",
 				"tagicon":"&#xe698;"
 			},
@@ -93,7 +93,7 @@
 				"city":"杜创",
 				"money":"",
 				"desc":"3122人浏览过",
-				"img":"images/index010.jpg",
+				"img":"../images/index010.jpg",
 				"tag":"景点",
 				"tagicon":"&#xe697;"
 			},
@@ -102,7 +102,7 @@
 				"city":"布达佩斯景点",
 				"money":"",
 				"desc":"当地景点排名第8",
-				"img":"images/index011.jpg",
+				"img":"../images/index011.jpg",
 				"tag":"景点",
 				"tagicon":"&#xe697;"
 			},
@@ -111,7 +111,7 @@
 				"city":"瑞士城市",
 				"money":"",
 				"desc":"26277个人去过这里",
-				"img":"images/index012.jpg",
+				"img":"../images/index012.jpg",
 				"tag":"城市",
 				"tagicon":"&#xe6a4;"
 			},
@@ -120,7 +120,7 @@
 				"city":"michellejia610",
 				"money":"",
 				"desc":"推荐了5个目的地",
-				"img":"images/index013.jpg",
+				"img":"../images/index013.jpg",
 				"tag":"锦囊",
 				"tagicon":"&#xe603;"
 			},
@@ -129,7 +129,7 @@
 				"city":"梅尔凯奇",
 				"money":"",
 				"desc":"7372人浏览过",
-				"img":"images/index014.jpg",
+				"img":"../images/index014.jpg",
 				"tag":"游记",
 				"tagicon":"&#xe614;"
 			},
@@ -138,7 +138,7 @@
 				"city":"皇后镇美食",
 				"money":"",
 				"desc":"当地美食排名第1",
-				"img":"images/index015.jpg",
+				"img":"../images/index015.jpg",
 				"tag":"美食",
 				"tagicon":"&#xe744;"
 			},
@@ -147,7 +147,7 @@
 				"city":"新西兰城市",
 				"money":"",
 				"desc":"8660个人去过这里",
-				"img":"images/index016.jpg",
+				"img":"../images/index016.jpg",
 				"tag":"城市",
 				"tagicon":"&#xe6a4;"
 			}
@@ -159,21 +159,21 @@
 					"title2":"全国多地直飞厦门4天3晚自由行",
 					"money":"1400",
 					"desc":"",
-					"img":"images/index_z1.jpg"
+					"img":"../images/index_z1.jpg"
 				},
 				{
 					"title1":"特价签证",
 					"title2":"【北京送签】俄罗斯个人旅游签证",
 					"money":"739",
 					"desc":"更多特价： 【全国领区】芬兰个人旅游/商务签证",
-					"img":"images/index_z2.jpg"
+					"img":"../images/index_z2.jpg"
 				},
 				{
 					"title1":"城市玩乐",
 					"title2":"日本最北 冰雪中欢腾",
 					"money":"105",
 					"desc":"更多玩乐： 高纯度洗肺之旅 跳入上帝的水族箱",
-					"img":"images/index_z3.jpg"
+					"img":"../images/index_z3.jpg"
 				}
 			],
 			"buynext1":[
@@ -182,42 +182,42 @@
 					"type":"签证",
 					"time":"长期有效",
 					"money":"1099",
-					"img":"images/index_z4.jpg"
+					"img":"../images/index_z4.jpg"
 				},
 				{
 					"title":"加拿大个人旅游签证(全国收取)",
 					"type":"签证",
 					"time":"2016/06-2017/06",
 					"money":"785",
-					"img":"images/index_z5.jpg"
+					"img":"../images/index_z5.jpg"
 				},
 				{
 					"title":"美国洛杉矶迪士尼乐园1日1园实体/电子票（全国包邮）",
 					"type":"城市玩乐",
 					"time":"2015/08-2017/12",
 					"money":"600",
-					"img":"images/index_z6.jpg"
+					"img":"../images/index_z6.jpg"
 				},
 				{
 					"title":"【另类体验+达人必选】拉斯维加斯Pink Jeep市区/大峡谷西峡游",
 					"type":"城市玩乐",
 					"time":"2015/09-2016/05",
 					"money":"315",
-					"img":"images/index_z7.jpg"
+					"img":"../images/index_z7.jpg"
 				},
 				{
 					"title":"澳门新濠天地《水舞间》演出门票(电子换票证)",
 					"type":"城市玩乐",
 					"time":"2015/12-2016/02",
 					"money":"455",
-					"img":"images/index_z8.jpg"
+					"img":"../images/index_z8.jpg"
 				},
 				{
 					"title":"【春节,超长预售】北京直飞首尔4-5天自由行(多酒店可选,赠接送机)",
 					"type":"自由行",
 					"time":"2016/03-2017/04",
 					"money":"1999",
-					"img":"images/index_z9.jpg"
+					"img":"../images/index_z9.jpg"
 				}
 			],
 			"buynext2":[
@@ -226,42 +226,42 @@
 					"type":"城市玩乐",
 					"time":"2015/08-2016/04",
 					"money":"1407",
-					"img":"images/index_z10.jpg"
+					"img":"../images/index_z10.jpg"
 				},
 				{
 					"title":"【春节假期】多地直飞曼谷5-10天往返含税机票(赠目的地管家服务)",
 					"type":"机票",
 					"time":"2016/04-2017/07",
 					"money":"699",
-					"img":"images/index_z11.jpg"
+					"img":"../images/index_z11.jpg"
 				},
 				{
 					"title":"【穷游独家】清迈超级民宿Q-House住宿",
 					"type":"城市玩乐",
 					"time":"2016/10-2017/02",
 					"money":"399",
-					"img":"images/index_z12.jpg"
+					"img":"../images/index_z12.jpg"
 				},
 				{
 					"title":"【春节热卖】全国多地直飞美国塞班5-7天自由行(赠接送机/含税/无须支付小费)",
 					"type":"自由行",
 					"time":"2015/09-2017/06",
 					"money":"2699",
-					"img":"images/index_z13.jpg"
+					"img":"../images/index_z13.jpg"
 				},
 				{
 					"title":"东京米其林一星餐厅“银座大野”怀石料理午餐/晚餐",
 					"type":"城市玩乐",
 					"time":"2016/05-2016/10",
 					"money":"439",
-					"img":"images/index_z14.jpg"
+					"img":"../images/index_z14.jpg"
 				},
 				{
 					"title":"【拒签全退/五星卡航】上海往返欧洲多地5-30天特价机票(赠签证服务)",
 					"type":"机票",
 					"time":"2016/10-2017/07",
 					"money":"4699",
-					"img":"images/index_z15.jpg"
+					"img":"../images/index_z15.jpg"
 				}
 			],
 			"buynext3":[
@@ -270,42 +270,42 @@
 					"type":"签证",
 					"time":"长期有效",
 					"money":"1099",
-					"img":"images/index_z4.jpg"
+					"img":"../images/index_z4.jpg"
 				},
 				{
 					"title":"加拿大个人旅游签证(全国收取)",
 					"type":"签证",
 					"time":"2016/06-2017/06",
 					"money":"785",
-					"img":"images/index_z5.jpg"
+					"img":"../images/index_z5.jpg"
 				},
 				{
 					"title":"美国洛杉矶迪士尼乐园1日1园实体/电子票（全国包邮）",
 					"type":"城市玩乐",
 					"time":"2015/08-2017/12",
 					"money":"600",
-					"img":"images/index_z6.jpg"
+					"img":"../images/index_z6.jpg"
 				},
 				{
 					"title":"【另类体验+达人必选】拉斯维加斯Pink Jeep市区/大峡谷西峡游",
 					"type":"城市玩乐",
 					"time":"2015/09-2016/05",
 					"money":"315",
-					"img":"images/index_z7.jpg"
+					"img":"../images/index_z7.jpg"
 				},
 				{
 					"title":"澳门新濠天地《水舞间》演出门票(电子换票证)",
 					"type":"城市玩乐",
 					"time":"2015/12-2016/02",
 					"money":"455",
-					"img":"images/index_z8.jpg"
+					"img":"../images/index_z8.jpg"
 				},
 				{
 					"title":"【春节,超长预售】北京直飞首尔4-5天自由行(多酒店可选,赠接送机)",
 					"type":"自由行",
 					"time":"2016/03-2017/04",
 					"money":"1999",
-					"img":"images/index_z9.jpg"
+					"img":"../images/index_z9.jpg"
 				}
 			],
 			"buynext4":[
@@ -314,42 +314,42 @@
 					"type":"城市玩乐",
 					"time":"2015/08-2016/04",
 					"money":"1407",
-					"img":"images/index_z10.jpg"
+					"img":"../images/index_z10.jpg"
 				},
 				{
 					"title":"【春节假期】多地直飞曼谷5-10天往返含税机票(赠目的地管家服务)",
 					"type":"机票",
 					"time":"2016/04-2017/07",
 					"money":"699",
-					"img":"images/index_z11.jpg"
+					"img":"../images/index_z11.jpg"
 				},
 				{
 					"title":"【穷游独家】清迈超级民宿Q-House住宿",
 					"type":"城市玩乐",
 					"time":"2016/10-2017/02",
 					"money":"399",
-					"img":"images/index_z12.jpg"
+					"img":"../images/index_z12.jpg"
 				},
 				{
 					"title":"【春节热卖】全国多地直飞美国塞班5-7天自由行(赠接送机/含税/无须支付小费)",
 					"type":"自由行",
 					"time":"2015/09-2017/06",
 					"money":"2699",
-					"img":"images/index_z13.jpg"
+					"img":"../images/index_z13.jpg"
 				},
 				{
 					"title":"东京米其林一星餐厅“银座大野”怀石料理午餐/晚餐",
 					"type":"城市玩乐",
 					"time":"2016/05-2016/10",
 					"money":"439",
-					"img":"images/index_z14.jpg"
+					"img":"../images/index_z14.jpg"
 				},
 				{
 					"title":"【拒签全退/五星卡航】上海往返欧洲多地5-30天特价机票(赠签证服务)",
 					"type":"机票",
 					"time":"2016/10-2017/07",
 					"money":"4699",
-					"img":"images/index_z15.jpg"
+					"img":"../images/index_z15.jpg"
 				}
 			]
 		},

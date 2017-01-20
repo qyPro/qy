@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="../dest/register.css">
+	<link rel="stylesheet" type="text/css" href="../dest/global.css">
+	<script type="text/javascript" src="../global.js"></script>
+
+</head>
+<body>
+<div class="hf-register">
+	<img class="hf-register-img1" src="../images/register/web_login_bg.jpg" alt="">
+	<div class="hf-register-top clear">
+		<img src="../images/register/login_logo2.png" alt="">
+		<p>注册</p>	
+	</div>
+
+	<div class="hf-res-kuang">
+		<div class="hf-kuang1 clear">
+			<p class="act">邮箱注册</p>
+			<p>手机注册</p>			
+		</div>
+
+		<input  class="hf-k-input1" type="mail" placeholder="输入用于登陆的邮箱地址">
+
+		<p class="hf-err1"><span>请输入用于登录的邮箱地址</span></p>
+	
+		<div class="hf-k2 clear" >
+			<input class="hf-k-input2" type="text" name="" placeholder="图片识别码">
+			<div>
+				<a href="javascript:;"><img src="" alt=""></a>
+			</div>
+		</div>
+
+		<p class="hf-err2"><span>图片识别码错误</span></p>
+
+		<div class="hf-k3 clear ">
+			<input class="k3-inp1" type="text" placeholder="输入邮箱中的验证码" maxlength="6">
+			<div>
+				<a href="javascript:;"><span>发送验证码</span></a>
+			</div>
+		</div>
+
+		<p class="hf-err3"><span>请输入邮箱验证码</span></p>
+
+
+		<input class="hf-k-input3" type="text" name=""  maxlength="8" placeholder="起一个具有辨识度的用户名">
+
+		<p class="hf-err4"><span>请输入正确的用户名</span></p>
+
+		<input class="hf-k-input4" type="password" maxlength="6" placeholder="请输入密码">
+		<p class="hf-err5"><span>请输入密码</span></p>
+		<p class="hf-zhuce">注册</p>
+
+
+		<div class="hf-res-bottom">
+			<p>已有穷游账号？ <a href="#" title="">登陆</a></p>
+			<p>同意<a class="hf-res-bottom-a1" href="javascript:;" title="">会员条款</a>和<a class="hf-res-bottom-a1" href="javascript:;" title="">免责声明</a>
+			</p>
+		</div>
+		
+
+	</div>
+</div>
+
+<script type="text/javascript">
+	seajs.config({
+		base:'./'
+	})
+	seajs.use('../js/login.js',function(res){
+		res.
+	})
+</script>
+	
+</body>
+</html>

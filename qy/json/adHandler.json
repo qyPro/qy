@@ -1,0 +1,27 @@
+{
+  "namespace": "prod1",
+  "status": 0,
+  "msg": "ok",
+  "data": {
+    "strategy": "AVG-DISTRIBUTION",
+    "content": {
+      "zone_id": 11,
+      "ad_list": [
+        {
+          "id": 826,
+          "alt": null,
+          "width": 980,
+          "height": 100,
+          "content_type": "IMG",
+          "content_type_op": "ST_AD",
+          "content_url": "http://pic.qyer.com/ra/img/14841395058708",
+          "target_url": "http://hades.qyer.com/ad/hobbit?adid=826&to=jTQe7&r=62634ccd508c538e11963dc82136dbeb8fded19e&context=ad",
+          "expire_at": 1484841600
+        }
+      ]
+    },
+    "request_id": "62634ccd508c538e11963dc82136dbeb8fded19e"
+  },
+  "service_name": "hades",
+  "time": 0
+}

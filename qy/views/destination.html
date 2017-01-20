@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>穷游</title>
+    <link rel="stylesheet" href="../dest/global.css">
+    <link rel="stylesheet" type="text/css" href="../less/destination.css">
+</head>
+
+<body>
+    <header id="header"></header>
+    <div class="container">
+    	<div class="des-banner">
+    		<h1>你好，世界！</h1>
+    		<div class="des-searchBox">
+    			<div class="des-input">
+    				<input type="text" name="" value="" placeholder="搜索国家、城市、目的地" id="input">
+    			</div>
+    			<div class="hot-city">
+    				<span>热门城市：</span>
+    				<a href="" title="">香港</a>
+    				<a href="" title="">曼谷</a>
+    				<a href="" title="">澳门</a>
+    				<a href="" title="">巴黎</a>
+    				<a href="" title="">东京</a>
+    			</div>
+    			<div class="des-visited clear hide">
+    				<span>最近访问：</span>
+    				<a href="" title="">香港</a>
+    				<span class="clear-visited">清除访问历史</span>
+    			</div>
+    			<div class="all-city">
+    				<a href="#countryTotal" title="">查看全部国家列表&gt;&gt;</a>
+    			</div>
+    		</div>
+    		<div class="info-box">
+    			<div class="info-icon">
+    				<span class="icon" id="icon"></span>
+    				<p id="author-box" class="hidden">
+    					<a href="" title="">西西里_Amy</a>
+    					<span class="takeBy">拍摄于</span>
+    					<a href="" title="">叔阿拉皮革坊</a>
+    				</p>
+    			</div>
+    		</div>
+    	</div>
+    	<div class="des-main">
+    		<div class="ad-box">
+    			<img src="../images/des-adimg.jpg" alt="">
+    		</div>
+    		<div class="exploreWorld clear">
+    			<h2 class="floor-title">探索精彩世界</h2>
+    			<ul class="play-list clear">
+    				<li class="play-item current" data-index='0'>
+    					<a href="" title="">玩转日本</a>
+    				</li>
+    				<li class="play-item" data-index='1'>
+    					<a href="" title="">神秘遗址</a>
+    				</li>
+    				<li class="play-item" data-index='2'>
+    					<a href="" title="">冬季滑雪</a>
+    				</li>
+    				<li class="play-item" data-index='3'>
+    					<a href="" title="">冬恋暖汤</a>
+    				</li>
+    				<li class="play-item" data-index='4'>
+    					<a href="" title="">最爱小镇</a>
+    				</li>
+    				<li class="play-item" data-index='5'>
+    					<a href="" title="">跳蚤市集</a>
+    				</li>
+    				<li class="play-item" data-index='6'>
+    					<a href="" title="">魅力夜色</a>
+    				</li>
+    				<li class="play-item" data-index='7'>
+    					<a href="" title="">怀旧时光</a>
+    				</li>
+    			</ul>
+    		</div> 
+			<div class="images-box">
+				<ul class="img-list clear">
+				</ul>
+				<script type="text/html" id="img-items">
+				##for(var i = 0; i < eArr.length; i++ ){##
+					<li class="{{'items item'+ (i + 1)}}">
+						<a href="" title="">
+							<img src="{{eArr[i][1]}}" alt="">
+							<div class="mask">
+								<h3>{{eArr[i][0]}}</h3>
+								<p id="p">{{eArr[i][3]}}</p>
+							</div>
+						</a>
+					</li>
+				##}##
+				</script>
+			</div>
+			<div class="countryTotal clear" id="countryTotal">
+    			<h2 class="floor-title">国家列表</h2>
+    			<ul class="country-list clear">
+    				<li class="country-item current" data-value="0">
+    					<a href="" title="">全部</a>
+    				</li>
+    				<li class="country-item" data-value="1">
+    					<a href="" title="">亚洲</a>
+    				</li>
+    				<li class="country-item" data-value="2">
+    					<a href="" title="">欧洲</a>
+    				</li>
+    				<li class="country-item" data-value="3">
+    					<a href="" title="">非洲</a>
+    				</li>
+    				<li class="country-item" data-value="4">
+    					<a href="" title="">北美</a>
+    				</li>
+    				<li class="country-item" data-value="5">
+    					<a href="" title="">南美</a>
+    				</li>
+    				<li class="country-item" data-value="6">
+    					<a href="" title="">大洋洲</a>
+    				</li>
+    				<li class="country-item" data-value="7">
+    					<a href="" title="">南极洲</a>
+    				</li>
+    			</ul>
+    		</div>
+			<div class="countries">
+			</div>
+    			<script type="text/html" id="countries">
+	    			##for( var i = 0; i < continent.length; i++ ){##
+					<h2 class="continent">
+						<a href="" title="">{{continent[i].continentCn}} {{continent[i].continentEn}}</a>
+						##if(continent[i].list.length != 0){##
+						<span>(拼音首字母排序)</span>
+						##}##
+					</h2>
+					<div class="name-list clear">
+						<ul class="list-left">
+						##for(var j = 0; j < Math.ceil((continent[i].list.length)/3); j++ ){##
+							<li class="item">
+								<a href="">{{continent[i].list[j].nameCn}} 
+									<span class="en">{{continent[i].list[j].nameEn}}</span>
+									##if(continent[i].list[j].hot == 1){##
+									<span class="hot-icon"></span>
+									##}##
+								</a>
+							</li>
+						##}##
+						</ul>
+						<ul class="list-middle">
+							##for(var j = Math.ceil((continent[i].list.length)/3); j < Math.ceil((continent[i].list.length)/3)*2; j++ ){##
+							<li class="item">
+								<a href="">{{continent[i].list[j].nameCn}}
+									<span class="en">{{continent[i].list[j].nameEn}}</span>
+									##if(continent[i].list[j].hot == 1){##
+									<span class="hot-icon"></span>
+									##}##
+								</a>
+							</li>
+							##}##
+						</ul>
+						<ul class="list-right">
+							##for(var j = Math.ceil((continent[i].list.length)/3)*2; j < continent[i].list.length; j++ ){##
+							<li class="item">
+								<a href="">{{continent[i].list[j].nameCn}}
+									<span class="en">{{continent[i].list[j].nameEn}}</span>
+									##if(continent[i].list[j].hot == 1){##
+									<span class="hot-icon"></span>
+									##}##
+								</a>
+							</li>
+							##}##
+						</ul>
+					</div>
+					##}##
+				</script>
+    	</div>
+    </div>
+    <footer id="footer"></footer>
+</body>
+<script src='../bower_components/jquery/dist/jquery.min.js'></script>
+<script src='../bower_components/seajs/dist/sea.js'></script>
+<script src='../bower_components/seajs-text/dist/seajs-text.js'></script>
+<script src='../bower_components/underscore/underscore.js'></script>
+<script src="../js/destination.js"></script>
+<script>
+	seajs.config({ base: '../' });
+	seajs.use('js/head_foot.js',function(main){ main.init(); })
+</script>
+
+</html>

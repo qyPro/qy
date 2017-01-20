@@ -1,0 +1,353 @@
+
+.container{
+	.des-banner{
+		width:100%;
+		background: url(../images/des_banner_bg.jpg) center center no-repeat;
+		height: 500px;
+		padding-top: 132px;
+		position: relative;
+		h1{
+			color:#fff;
+			font-size: 48px;
+			text-align: center;
+			text-shadow: 0 0 5px rgba(0,0,0,.7);
+			line-height: 50px;
+			font-family: '微软雅黑';
+			margin-bottom: 20px;
+		}
+		.des-searchBox{
+			background-color: rgba(0,0,0,.5);
+			width:640px;
+			padding:20px;
+			margin: 0 auto;
+			.des-input{
+				width:100%;
+				background-color: #fff;
+				input{
+					width:100%;
+					height: 40px;
+					line-height: 40px;
+					font-size: 18px;
+					background: url(../images/ind_sch.png) right 10px center no-repeat;
+					padding:0 30px 0 20px;
+				}
+			}
+			.hide{
+				display: none;
+			}
+			.hot-city{
+				margin-top: 10px;
+				font-size: 0px;
+				span{
+					color:#fff;
+					font-size: 12px;
+				}
+				a{
+					font-size: 12px;
+					color:#fff;
+					padding:0 10px;
+					&:hover{
+						text-decoration: underline;
+					}
+				}
+			}
+			.des-visited{
+				font-size: 0;
+				margin-top: 10px;
+				span{
+					font-size: 12px;
+					color:#fff;
+					&.clear-visited{
+						float: right;
+						&:hover{
+							text-decoration: underline;
+							cursor: pointer;
+						}
+					}
+				}
+				a{
+					font-size: 12px;
+					color:#fff;
+					padding:0 10px;
+					&:hover{
+						text-decoration: underline;
+					}
+				}
+			}
+			.all-city{
+				margin-top: 10px;
+				a{
+					color:#fff;
+					font-size: 12px;
+					&:hover{
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+		.info-box{
+			position: absolute;
+			left:0;
+			bottom:15px;
+			width:100%;
+			.info-icon{
+				height:26px;
+				min-width: 26px;
+				border:2px solid #fff;
+				position: absolute;
+				right:200px;
+				bottom:0;
+				border-radius: 16px;
+				padding-right: 13px;
+				padding-left: 13px;
+				background-color: rgba(0,0,0,.5);
+				span.icon{
+					position: absolute;
+					background: url(../images/ind_info.png) center center no-repeat;
+					top:-2px;
+					right:0;
+					width:26px;
+					height: 26px;
+					opacity: 1;
+				}
+				p{
+					font-size: 0px;
+					line-height: 22px;
+					transition:all .5s;
+					width:0px;
+					overflow: hidden;
+					height:26px;
+					a{
+						font-size: 12px;
+						color:#fff;
+						font-weight: bold;
+						&:hover{
+							text-decoration: underline;
+						}
+					}
+					span.takeBy{
+						font-size: 12px;
+						color:#fff;
+					}
+				}
+			}
+		}
+	}
+	.des-main{
+		width:980px;
+		margin: 0 auto;
+		padding-top: 70px;
+		.ad-box{
+			img{
+				width:100%;
+				display: block;
+			}
+		}
+		.exploreWorld,.countryTotal{
+			.floor-title{
+				height: 80px;
+				line-height: 80px;
+				font-size: 30px;
+				float: left;
+			}
+			.play-list,.country-list{
+				float: right;
+				padding-top: 25px;
+				height: 80px;
+				.play-item,.country-item{
+					float: left;
+					margin-left: 10px;
+					a{
+						line-height: 30px;
+						height: 30px;
+						color:#323232;
+						font-weight: bold;
+						font-size: 14px;
+						padding:0 10px;
+						display: block;
+						&:hover{
+							text-decoration: underline;
+						}
+					}
+					&.current{
+						background: url(../images/tab_curarrow.png) 50% bottom no-repeat;
+						padding-bottom: 4px;
+						a{
+							background-color: #65b17f;
+							color:#fff;
+							&:hover{
+								text-decoration: none;
+							}
+						}
+					}
+				}
+			}
+		}
+		.images-box{
+			width:980px;
+			height: 610px;
+			.img-list{
+				position: relative;
+				top:0;
+				left:0;
+				li{
+					position: absolute;
+					float: left;
+					overflow: hidden;
+					img{
+						width:100%;
+						height: 100%;
+						transform:scale(1);
+						transition:all .8s ease-out;
+					}
+					.mask{
+						background-color: rgba(0,0,0,0);
+						width:100%;
+						position: absolute;
+						left:0;
+						bottom:0;
+						padding:0 10px;
+						overflow: hidden;
+						h3{
+							color:#fff;
+							font-size: 30px;
+							line-height: 50px;
+							height: 50px;
+							overflow: hidden;
+							white-space: nowrap;
+							text-overflow:ellipsis;
+						}
+						p{
+							color:#fff;
+							font-size: 14px;
+							display: none;
+							padding-bottom: 20px;
+							line-height: 20px;
+						}
+					}
+					&.item1{
+						top:0;
+						left:0;
+						width:388px;
+						height: 200px;
+					}
+					&.item2{
+						left: 394px;
+    					top: 0;
+    					width:192px;
+    					height: 200px;
+    					
+					}
+					&.item3{
+						width:192px;
+						height: 405px;
+						left: 591px;
+						top: 0;
+						
+					}
+					&.item4{
+						width:192px;
+						height: 200px;
+						left: 788px;
+    					top: 0;
+    					
+					}
+					&.item5{
+						left: 788px;
+    					top: 205px;
+    					width:192px;
+    					height: 200px;
+					}
+					&.item6{
+						width:192px;
+						height: 405px;
+						left: 0;
+    					top: 205px;
+					}
+					&.item7{
+						width:388px;
+						height: 200px;
+						left: 197px;
+						top: 205px;
+					}
+					&.item8{
+						width:192px;
+						height: 200px;
+						left: 197px;
+    					top: 410px;
+					}
+					&.item9{
+						width:192px;
+						height: 200px;
+					    left: 394px;
+						top: 410px;
+					}
+					&.item10{
+						width: 389px;
+						height: 200px;
+						left: 591px;
+    					top: 410px;
+					}
+				}
+			}
+		}
+		.countries{
+			width:100%;
+			.continent{
+				a{
+					color:#147850;
+					font-size: 18px;
+					font-weight: bold;
+					&:hover{
+						text-decoration: underline;
+					}
+				}
+				span{
+					color:#959595;
+					font-size: 14px;
+				}
+			}
+			.name-list{
+				margin-left: -10px;
+				padding:20px 0 50px;
+				.list-left,.list-middle,.list-right{
+					float: left;
+					width:330px;
+					padding-left: 10px;
+					.item{
+						width:100%;
+						height: 24px;
+						line-height: 24px;
+						a{
+							font-size: 14px;
+							color:#323232;
+							padding-right: 30px;
+							position: relative;
+							width:100%;
+							overflow: hidden;
+							white-space: nowrap;
+							text-overflow:ellipsis;
+							&:hover{
+								text-decoration: underline;
+								color:#0073b6;
+							}
+							span.en{
+								font-size: 14px;
+								color:#959595;
+							}
+							span.hot-icon{
+								position: absolute;
+								right:0;
+								top:0;
+								display: block;
+								width:28px;
+								height: 18px;
+								background: url(../images/icon_hot.png) no-repeat;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

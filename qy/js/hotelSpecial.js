@@ -1,56 +1,4 @@
-<<<<<<< HEAD:qy/js/hotel.js
 
-define(function(require, exports, module){
-  
-    var hotel = {
-        init: function() {
-        	// 调用头部底部
-        	var head_foot = require('../js/head_foot.js');
-        	var hotel_public = require('../js/hotel-public.js');
-            var pop = require('./pop.js');
-            pop.init();
-            head_foot.init();
-            hotel_public.init();
-            this.dealAjax();
-
-          
-        },
-
-        dealAjax:function(){
-            $.ajax({
-                url:"../json/hotel.json",
-                success:function(res){
-                    
-                    //当季热门
-                    var hotel=res.hotel;            
-                    var _html9=$('#hotel').html();
-                    var _hh9=_.template(_html9);
-                    var _html8=_hh9({hotelpo:hotel})
-                    $('.hf-hotel-tu').html(_html8);
-
-                    // 国外预订
-                    var guowai= res.guowai;
-                    var gg=$('#yuding').html();
-                    var oo=_.template(gg);
-                    var gg1=oo({yudingpo:guowai});          
-                    $('#hf-hot-ul').html(gg1);
-
-                    // 热门城市
-                    var hotcity=res.hotcity;
-                    var gg9=$('#yuding2').html();
-                    var oo9=_.template(gg9);
-                    var gg8=oo9({yudingpo2:hotcity});
-                    
-                    $('#hf-hot-ul2').html(gg8);
-
-                }
-            })
-        }
-       } 
-    module.exports = hotel;
-});
-
-=======
 define(function(require, exports, module) {
     var start = 0;
     var end = 0;
@@ -151,4 +99,4 @@ define(function(require, exports, module) {
     }
     module.exports = hotel;
 });
->>>>>>> 41eda2d384e67510fc3aab8079f54e395b045fb1:qy/js/hotelSpecial.js
+

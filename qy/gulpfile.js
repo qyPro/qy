@@ -16,7 +16,7 @@ gulp.task('less',function(){
 	.pipe(autoprefixer())
 	.pipe(gulp.dest('./dest'))
 })
-gulp.task('look',function(){
+gulp.task('look',["less"],function(){
 	gulp.watch('less/*.less',['less']);
 })
 // gulp.clean('clean',function(){

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .hotel-con{
 	width:1160px;
 	margin:0 auto;
@@ -212,3 +213,186 @@
 
 
 
+=======
+.hotel-container {
+    .hotel-content {
+        width: 960px;
+        margin: 0px auto;
+        //路径
+        .catalog {
+            font-size: 12px;
+            line-height: 54px;
+            >a {
+                font-weight: bold;
+                color: #0073b6;
+            }
+            >span {
+                color: #636363;
+            }
+        }
+        // 标题
+        .title {
+            background-color: #f5f4f0;
+            height: 74px;
+            margin-bottom: 20px;
+            >h2 {
+                float: left;
+                width: 250px;
+                line-height: 74px;
+                font-size: 38px;
+                color: #077345;
+                padding-left: 10px;
+            }
+            >span {
+                float: left;
+                width: 710px;
+                padding: 23px 20px 0 10px;
+                font-size: 12px;
+                color: #323232;
+            }
+        }
+        // 选择城市、日期
+        .choice-city-date {
+            background-color: #f5f4f0;
+            height: 48px;
+            margin-bottom: 15px;
+            padding-left: 10px;
+            >div {
+                float: left;
+            }
+            .city-box {
+                width: 150px;
+                position: relative;
+                .hot-city{
+                    display: none;
+                    position: absolute;
+                    width: 204px;
+                    left: 51px;
+                    top: 38px;
+                    background-color: #fff;
+                    border: 1px solid #ccc;
+                    border-bottom: none;
+                    h3{
+                        height: 32px;
+                        border-bottom: 1px solid #ccc;
+                        line-height: 32px;
+                        padding-left: 10px;
+                        font-size: 14px;
+                        font-weight: bold;
+                    }
+                    >ul{
+                        >li{
+                            float: left;
+                            width: 50%;
+                            line-height: 22px;
+                            padding-left: 10px;
+                            color: #077345;
+                            font-size: 12px;
+                            cursor: pointer;
+                            &:hover{
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+            .date-box {
+                width: 320px;
+            }
+            .range-box {
+                width: 480px;
+                >* {
+                    float: left;
+                }
+                >label{
+                    margin-right: 10px;
+                }
+                .range-wid {
+                    width: 210px;
+                }
+            }
+            label {
+                color: #636363;
+                font-weight: bold;
+                line-height: 48px;
+                padding-left: 10px;
+            }
+            input {
+                width: 84px;
+                height: 26px;
+                line-height: 26px;
+                border: 1px solid lightgray;
+                padding-left: 5px;
+            }
+            button {
+                background-color: #5cad77;
+                height: 28px;
+                padding: 0px 15px;
+                margin-top: 10px;
+                margin-left: 20px;
+                border: none;
+                line-height: 28px;
+                border-radius: 3px;
+                color: white;
+            }
+        }
+        // 图片展示区
+        .img-list {
+            background-color: #f5f4f0;
+            padding: 10px 0 19px 19px;
+            >ul {
+                >li {
+                	float: left;
+                    width: 210px;
+                    background-color: #fff;
+                    margin: 10px;
+                    .info {
+	                    font-size: 12px;
+	                    color: #636363;
+	                    padding: 10px;
+                        >img {
+                            width: 190px;
+                        }
+                        .name {
+                            color: #006aad;
+                            display: block;
+                            overflow: hidden;
+                            width: 190px;
+                            line-height: 18px;
+                            font-size: 12px;
+                            font-weight: bold;
+                        }
+                        .star {
+                            font-weight: bold;
+                            color: #f7bc00;
+                        }
+                        .grade{
+                        	float: right;
+                        }
+                    }
+                    .price {
+                        border-top: 1px solid #f5f5f5;
+                        padding: 5px 9px;
+                        .cur-price {
+                            font-size: 22px;
+                            line-height: 24px;
+                            color: #087346;
+                        }
+                        .all-price {
+                            line-height: 20px;
+                            color: #ee1840;
+                            margin-left: 20px;
+                        }
+                        .zhe{
+                        	float: right;
+                        	line-height: 26px;
+                        	font-size: 12px;
+                        	color: #636363;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+>>>>>>> b181ce8c13c866049aa1b1ca035f6cb0a38eccef

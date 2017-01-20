@@ -7,10 +7,14 @@
     <title></title>
     <link rel="stylesheet" href="../dest/global.css">
     <link rel="stylesheet" href="../dest/bigworld.css">
-    <script src="../bower_components/underscore/underscore.js"></script>
+    <!-- <script src="../bower_components/underscore/underscore.js"></script> -->
+    <script type="text/javascript" src = '../global.js'></script>
 </head>
 
 <body>
+    
+    <header id="header" ></header>
+
     <div class="hf-header">
         <div class="hf-container clear">
             <img class="hf-logo1" src="../images/bigworld/logo1.png" alt="">
@@ -430,9 +434,20 @@
         </ul>
     </div>
 
-
-    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="../js/bigWorld.js"></script>
+    <footer id="  "></footer>
+    <div id="pop">
+        
+    </div>
+    <!-- <script src="../bower_components/jquery/dist/jquery.min.js"></script> -->
+    <!-- <script src="../js/bigWorld.js"></script> -->
+    <script type="text/javascript">
+        seajs.config({
+            base:'./'
+        })
+        seajs.use('../js/bigWorld.js',function(big){
+            big.init();
+        })
+    </script>
 </body>
 
 </html>

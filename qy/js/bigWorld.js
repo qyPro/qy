@@ -1,8 +1,15 @@
-$(function() {
+// $(function() {
+    define(function(require,exports,module){
+
+
     var bigWorld={
         init:function(){
             this.dealSlide();
             this.dealAjax();
+            var head_foot = require('./head_foot.js');
+            var pop = require('./pop.js');
+            head_foot.init();
+            pop.init();
         },
         dealSlide:function(){
              var timer = null;
@@ -135,6 +142,7 @@ $(function() {
     }
 
 
-    bigWorld.init();
-
-})
+    // bigWorld.init();
+    module.exports = bigWorld;
+ })
+// })

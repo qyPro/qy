@@ -39,10 +39,17 @@ input:focus {
   visibility: hidden;
   content: '';
 }
+.clearfix:after {
+  height: 0;
+  clear: both;
+  display: block;
+  visibility: hidden;
+  content: '';
+}
 @font-face {
   font-family: 'iconfont';
-  src: url('../fonts/iconfont.eot');
-  src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'), url('../fonts/iconfont.woff') format('woff'), url('../fonts/iconfont.ttf') format('truetype'), url('../fonts/iconfont.svg#iconfont') format('svg');
+  src: url('../fonts/hcx/iconfont.eot');
+  src: url('../fonts/hcx/iconfont.eot?#iefix') format('embedded-opentype'), url('../fonts/hcx/iconfont.woff') format('woff'), url('../fonts/hcx/iconfont.ttf') format('truetype'), url('../fonts/hcx/iconfont.svg#iconfont') format('svg');
 }
 .iconfont {
   font-family: "iconfont" !important;
@@ -58,6 +65,10 @@ header {
   height: 60px;
   background-color: #323232;
 }
+header .header-left {
+  float: left;
+  width: 700px;
+}
 header .header-left .logo {
   float: left;
   width: 76px;
@@ -66,6 +77,9 @@ header .header-left .logo {
 }
 header .header-left .logo img {
   width: 100%;
+}
+header .header-left .nav {
+  float: right;
 }
 header .header-left .nav > li {
   float: left;
@@ -233,6 +247,10 @@ header .header-left .nav > li.schedule > div > ul li a {
   padding-left: 15px;
 }
 header .header-right {
+  float: right;
+  width: 500px;
+}
+header .header-right > ul {
   float: right;
 }
 header .header-right > ul > li {

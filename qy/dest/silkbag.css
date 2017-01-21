@@ -70,21 +70,25 @@
   overflow: hidden;
   position: absolute;
   left: 201px;
-  top: 30px;
+  top: 20px;
   z-index: 10;
 }
 .silkbag-container .content .area-box nav .nav-list > li .area-info .area-list {
   background-color: #fff;
   width: 1750px;
   height: 320px;
+  position: relative;
+  left: 0;
+  right: 0;
 }
 .silkbag-container .content .area-box nav .nav-list > li .area-info .area-list > li {
   float: left;
   display: inline;
-  width: 174px;
-  height: 305px;
+  width: 175px;
+  height: 290px;
   padding-top: 15px;
   border-right: 1px dotted #ccc;
+  box-sizing: border-box;
 }
 .silkbag-container .content .area-box nav .nav-list > li .area-info .area-list > li > h4 {
   padding-left: 20px;
@@ -105,6 +109,7 @@
   background-color: rgba(0, 0, 0, 0.15);
 }
 .silkbag-container .content .area-box nav .nav-list > li .area-info .btn-group {
+  display: none;
   position: absolute;
   top: 280px;
   right: 10px;
@@ -117,15 +122,18 @@
   background-color: #ccc;
   margin-left: 10px;
 }
-.silkbag-container .content .area-box nav .nav-list > li .area-info .btn-group > span:hover {
-  background-color: #4e8a33;
-}
 .silkbag-container .content .area-box nav .nav-list > li .area-info .btn-group > span.pre {
   background-position: 9px 8px;
+}
+.silkbag-container .content .area-box nav .nav-list > li .area-info .btn-group > span.pre:hover {
+  background-color: #4e8a33;
 }
 .silkbag-container .content .area-box nav .nav-list > li .area-info .btn-group > span.next {
   background-position: -19px 8px;
   background-color: #636363;
+}
+.silkbag-container .content .area-box nav .nav-list > li .area-info .btn-group > span.next:hover {
+  background-color: #4e8a33;
 }
 .silkbag-container .content .area-box .slide-box {
   width: 750px;
@@ -234,6 +242,7 @@
   color: #fff;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
 }
 .silkbag-container .content .download {
   margin-bottom: 50px;
@@ -315,6 +324,9 @@
   color: #636363;
   padding: 0px 8px;
 }
+.silkbag-container .content .download .download-right .tab-content .tab-content-box {
+  display: none;
+}
 .silkbag-container .content .download .download-right .tab-content .tab-content-box > li {
   border-bottom: 1px dotted #e2e2e2;
   padding-bottom: 17px;
@@ -367,6 +379,7 @@
   white-space: nowrap;
   font-weight: bold;
   font-size: 12px;
+  line-height: 18px;
 }
 .silkbag-container .content .download .download-right .tab-content .tab-content-box > li .tab-content-list > li .name a {
   color: #0073b6;
@@ -375,6 +388,7 @@
 .silkbag-container .content .download .download-right .tab-content .tab-content-box > li .tab-content-list > li .date {
   font-size: 12px;
   color: #636363;
+  line-height: 18px;
 }
 .silkbag-container .content .download .download-right .tab-content #pagination {
   text-align: right;

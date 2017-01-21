@@ -6,10 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>穷游锦囊</title>
     <link rel="stylesheet" href="../dest/global.css">
-    <!-- 分页插件 -->
-    <!-- <link rel="stylesheet" type="text/css" href="../plug/pagination/style/pagination.css"> -->
-    <!-- <link rel="stylesheet" type="text/css" href="../plug/pagination/style/normalize.css"> -->
-    <!-- <link rel="stylesheet" type="text/css" href="../plug/pagination/style/common.css"> -->
     <!-- 页面样式 -->
     <link rel="stylesheet" type="text/css" href="../dest/silkbag.css">
 </head>
@@ -25,74 +21,7 @@
             </div>
             <div class="area-box clear">
                 <nav>
-                    <ul class="nav-list">
-                        <li class="clear">
-                            <span class="area">亚洲</span>
-                            <span class="num">110</span>
-                            <div class="area-info">
-                                <ul class="area-list clear">
-                                    <li>
-                                        <h4>泰国</h4>
-                                        <ul>
-                                            <li>曼谷</li>
-                                            <li>清迈</li>
-                                            <li>普吉岛</li>
-                                            <li>苏梅岛与涛岛</li>
-                                            <li>清迈咖啡馆</li>
-                                            <li>泰国美食</li>
-                                            <li>甲米与兰塔岛</li>
-                                            <li>曼谷周边</li>
-                                            <li>泰国北部</li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <h4>港澳台</h4>
-                                        <ul>
-                                            <li>香港</li>
-                                            <li>澳门</li>
-                                            <li>台北</li>
-                                            <li>骑行台湾</li>
-                                            <li>香港美食</li>
-                                            <li>香港购物</li>
-                                            <li>台湾美食</li>
-                                            <li>台湾离岛</li>
-                                            <li>澳门美食</li>
-                                            <li>香港迪士尼乐园</li>
-                                            <li>台湾</li>
-                                            <li>台湾离岛徒步</li>
-                                            <li>香港西贡</li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <h4>柬埔寨</h4>
-                                        <ul>
-                                            <li>金边</li>
-                                            <li></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                                <div class="btn-group">
-                                    <span class="pre"></span>
-                                    <span class="next"></span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="clear">
-                            <span class="area">亚洲</span>
-                            <span class="num">99</span>
-                        </li>
-                        <li class="clear">
-                            <span class="area">亚洲</span>
-                            <span class="num">99</span>
-                        </li>
-                        <li class="clear">
-                            <span class="area">亚洲</span>
-                            <span class="num">99</span>
-                        </li>
-                        <li class="clear">
-                            <span class="area">亚洲</span>
-                            <span class="num">99</span>
-                        </li>
+                    <ul class="nav-list" id="nav-list">
                     </ul>
                 </nav>
                 <div class="slide-box clear" id="slide-box">
@@ -334,169 +263,9 @@
                         <a href="javascript:void(0)">最近7天下载量</a>
                     </div>
                     <div class="tab-content">
-                        <ul class="tab-content-box" id="tab-content-box">
-                           <!--  <li>
-                                <ul class="tab-content-list clear">
-                                    <li>
-                                        <a href="javascript:void(0)" class="show-img">
-                                            <img src="../images/silkbag/recommend_5.jpg" alt="">
-                                            <span class="new"></span>
-                                            <div class="mask"></div>
-                                        </a>
-                                        <p class="name"><a href="javascript:void(0)">DFS全球购物指南</a></p>
-                                        <p class="place">专题</p>
-                                        <p class="date">2017-01-18更新</p>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0)" class="show-img">
-                                            <img src="../images/silkbag/recommend_5.jpg" alt="">
-                                            <span class="new"></span>
-                                            <div class="mask"></div>
-                                        </a>
-                                        <p class="name"><a href="javascript:void(0)">DFS全球购物指南</a></p>
-                                        <p class="place">专题</p>
-                                        <p class="date">2017-01-18更新</p>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0)" class="show-img">
-                                            <img src="../images/silkbag/recommend_5.jpg" alt="">
-                                            <span class="new"></span>
-                                            <div class="mask"></div>
-                                        </a>
-                                        <p class="name"><a href="javascript:void(0)">DFS全球购物指南</a></p>
-                                        <p class="place">专题</p>
-                                        <p class="date">2017-01-18更新</p>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0)" class="show-img">
-                                            <img src="../images/silkbag/recommend_5.jpg" alt="">
-                                            <span class="new"></span>
-                                            <div class="mask"></div>
-                                        </a>
-                                        <p class="name"><a href="javascript:void(0)">DFS全球购物指南</a></p>
-                                        <p class="place">专题</p>
-                                        <p class="date">2017-01-18更新</p>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0)" class="show-img">
-                                            <img src="../images/silkbag/recommend_5.jpg" alt="">
-                                            <span class="new"></span>
-                                            <div class="mask"></div>
-                                        </a>
-                                        <p class="name"><a href="javascript:void(0)">DFS全球购物指南</a></p>
-                                        <p class="place">专题</p>
-                                        <p class="date">2017-01-18更新</p>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <ul class="tab-content-list clear">
-                                    <li>
-                                        <a href="javascript:void(0)" class="show-img">
-                                            <img src="../images/silkbag/recommend_5.jpg" alt="">
-                                            <span class="new"></span>
-                                            <div class="mask"></div>
-                                        </a>
-                                        <p class="name"><a href="javascript:void(0)">DFS全球购物指南</a></p>
-                                        <p class="place">专题</p>
-                                        <p class="date">2017-01-18更新</p>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0)" class="show-img">
-                                            <img src="../images/silkbag/recommend_5.jpg" alt="">
-                                            <span class="new"></span>
-                                            <div class="mask"></div>
-                                        </a>
-                                        <p class="name"><a href="javascript:void(0)">DFS全球购物指南</a></p>
-                                        <p class="place">专题</p>
-                                        <p class="date">2017-01-18更新</p>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0)" class="show-img">
-                                            <img src="../images/silkbag/recommend_5.jpg" alt="">
-                                            <span class="new"></span>
-                                            <div class="mask"></div>
-                                        </a>
-                                        <p class="name"><a href="javascript:void(0)">DFS全球购物指南</a></p>
-                                        <p class="place">专题</p>
-                                        <p class="date">2017-01-18更新</p>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0)" class="show-img">
-                                            <img src="../images/silkbag/recommend_5.jpg" alt="">
-                                            <span class="new"></span>
-                                            <div class="mask"></div>
-                                        </a>
-                                        <p class="name"><a href="javascript:void(0)">DFS全球购物指南</a></p>
-                                        <p class="place">专题</p>
-                                        <p class="date">2017-01-18更新</p>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0)" class="show-img">
-                                            <img src="../images/silkbag/recommend_5.jpg" alt="">
-                                            <span class="new"></span>
-                                            <div class="mask"></div>
-                                        </a>
-                                        <p class="name"><a href="javascript:void(0)">DFS全球购物指南</a></p>
-                                        <p class="place">专题</p>
-                                        <p class="date">2017-01-18更新</p>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <ul class="tab-content-list clear">
-                                    <li>
-                                        <a href="javascript:void(0)" class="show-img">
-                                            <img src="../images/silkbag/recommend_5.jpg" alt="">
-                                            <span class="new"></span>
-                                            <div class="mask"></div>
-                                        </a>
-                                        <p class="name"><a href="javascript:void(0)">DFS全球购物指南</a></p>
-                                        <p class="place">专题</p>
-                                        <p class="date">2017-01-18更新</p>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0)" class="show-img">
-                                            <img src="../images/silkbag/recommend_5.jpg" alt="">
-                                            <span class="new"></span>
-                                            <div class="mask"></div>
-                                        </a>
-                                        <p class="name"><a href="javascript:void(0)">DFS全球购物指南</a></p>
-                                        <p class="place">专题</p>
-                                        <p class="date">2017-01-18更新</p>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0)" class="show-img">
-                                            <img src="../images/silkbag/recommend_5.jpg" alt="">
-                                            <span class="new"></span>
-                                            <div class="mask"></div>
-                                        </a>
-                                        <p class="name"><a href="javascript:void(0)">DFS全球购物指南</a></p>
-                                        <p class="place">专题</p>
-                                        <p class="date">2017-01-18更新</p>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0)" class="show-img">
-                                            <img src="../images/silkbag/recommend_5.jpg" alt="">
-                                            <span class="new"></span>
-                                            <div class="mask"></div>
-                                        </a>
-                                        <p class="name"><a href="javascript:void(0)">DFS全球购物指南</a></p>
-                                        <p class="place">专题</p>
-                                        <p class="date">2017-01-18更新</p>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0)" class="show-img">
-                                            <img src="../images/silkbag/recommend_5.jpg" alt="">
-                                            <span class="new"></span>
-                                            <div class="mask"></div>
-                                        </a>
-                                        <p class="name"><a href="javascript:void(0)">DFS全球购物指南</a></p>
-                                        <p class="place">专题</p>
-                                        <p class="date">2017-01-18更新</p>
-                                    </li>
-                                </ul>
-                            </li> -->
+                        <ul class="tab-content-box" id="tab-content-box" style="display: block;">
+                        </ul>
+                        <ul class="tab-content-box" id="tab-content-box-date">
                         </ul>
                         <div id="pagination"></div>
                     </div>
@@ -512,26 +281,75 @@
     <footer id="footer"></footer>
     <!-- 弹出广告 -->
     <!-- <div id="pop"></div> -->
+
+
     <script type='text/html' id="tab-content">
-        ##for( var i = 0; i<4;i++ ){## 
-        	<li>
-	            <ul class="tab-content-list clear">
-	            ##for( var j = 0; j <slikbagData[i].length ; j++ ){##
-	                <li>
-	                    <a href="javascript:void(0)" class="show-img">
-	                        <img src="{{slikbagData[i][j].imgUrl}}" alt="">
-	                        <span class="new"></span>
-	                        <div class="mask"></div>
-	                    </a>
-	                    <p class="name"><a href="javascript:void(0)">{{slikbagData[i][j].name}}</a></p>
-	                    <p class="place">{{slikbagData[i][j].place}}</p>
-	                    <p class="date">{{slikbagData[i][j].date}}更新</p>
-	                </li>
-	               ##}##
-	            </ul>
+        ##for( var i = 0; i<slikbagData.length;i++ ){## 
+        <li>
+            <ul class="tab-content-list clear">
+                ##for( var j = 0; j<slikbagData[i].length ; j++ ){## 
+                <li>
+                    <a href="javascript:void(0)" class="show-img">
+                        <img src="{{slikbagData[i][j].imgUrl}}" alt="">
+                        <span class="new"></span>
+                        <div class="mask"></div>
+                    </a>
+                    <p class="name"><a href="javascript:void(0)">{{slikbagData[i][j].name}}</a></p>
+                    <p class="place">{{slikbagData[i][j].place}}</p>
+                    <p class="date">{{slikbagData[i][j].date}}更新</p>
+                    </li>
+                    ##}##
+            </ul>
             </li>
             ##}##
     </script>
+    <script type='text/html' id="tab-content-date">
+        ##for( var i = 0; i<slikbagData.length;i++ ){## 
+        <li>
+            <ul class="tab-content-list clear">
+                ##for( var j = 0; j<slikbagData[i].length ; j++ ){## 
+                <li>
+                    <a href="javascript:void(0)" class="show-img">
+                        <img src="{{slikbagData[i][j].imgUrl}}" alt="">
+                        <span class="new"></span>
+                        <div class="mask"></div>
+                    </a>
+                    <p class="name"><a href="javascript:void(0)">{{slikbagData[i][j].name}}</a></p>
+                    <p class="place">{{slikbagData[i][j].place}}</p>
+                    <p class="date">{{slikbagData[i][j].date}}更新</p>
+                    </li>
+                    ##}##
+            </ul>
+            </li>
+            ##}##
+    </script>
+    <script type='text/html' id='area-html'>
+        ##for( var i = 0; i<areaData.length;i++ ){## 
+             <li class="clear">
+                <span class="area">{{areaData[i].name}}</span>
+                <span class="num">{{areaData[i].list.length}}</span>
+                <div class="area-info" >
+                    <ul class="area-list clear" style="width: {{(175*areaData[i].list.length)+'px'}}">
+                        ##for( var j = 0; j< areaData[i].list.length; j++ ){## 
+                        <li>
+                            <h4>{{areaData[i].list[j].place}}</h4>
+                            <ul>
+                                ##for( var k = 0; k < areaData[i].list[j].infoList.length; k++ ){## 
+                                <li>{{areaData[i].list[j].infoList[k]}}</li>
+                                    ##}##
+                            </ul>
+                        </li>
+                        ##}##
+                    </ul>
+                    <div class="btn-group">
+                        <span class="pre"></span>
+                        <span class="next"></span>
+                    </div>
+                </div>
+            </li>
+        ##}##
+    </script>
+
     <script src='../global.js'></script>
     <!-- 轮播插件 -->
     <script src='../plug/unslider/unslider.min.js'></script>

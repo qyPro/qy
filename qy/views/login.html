@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../dest/global.css">
+    <link rel="stylesheet" type="text/css" href="../dest/login.css">
+</head>
+
+<body>
+    <div class="login-container">
+        <div class="bgtp clear">
+            <img src="../images/login/login_logo2.png" id="login-logo" alt="">
+            <span>登录</span>           
+            <div class="formBox">
+                <div class="content">
+                    <div class="Title clear">
+                        <div class="titleLeft">账号登陆</div>     
+                    </div>
+                    <div class="form">                          
+                            <input class="mail" type="mail" value="" placeholder="请输入邮箱">                         
+                            <div class="mailP1 "><span>请输入正确的邮箱</span></div>
+                            <input class="pwd" type="password" name="" value="" placeholder="请输入密码">
+                            <div class="mailP2"><span>请输入正确的密码</span></div>
+                            <div class="forgetPwd ">
+                                <a class="remember-link" target="_blank" >忘记密码?</a>
+                            </div>
+                            <div class="loginBtn" type="button">登录</div>
+                            <div class="fl">
+                                <input id="remember" name="remember" type="checkbox" class="remember" checked="checked"> 
+                                <label for="remember" class="remember">记住我</label>
+                            </div>                        
+                    </div>
+                    <div class="logoes">
+                        <div class="tp">
+                            <a class="a1" href="#"></a>
+                            <a class="a2" href="#"></a>
+                            <a class="a3" href="#"></a>
+                            <a class="a4" href="#"></a>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <a href="#">用户名登录</a>
+                        <a href="#">境外手机号登录</a>
+                        <a class="register" href="../views/register.html">立即注册</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src='../global.js'></script>
+<script>
+    seajs.config({
+        base:'./'
+    })
+    seajs.use('../js/login.js',function(login){
+        login.init();
+    })
+</script>
+
+
+</html>

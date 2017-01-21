@@ -1,0 +1,412 @@
+.container1 {
+  width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 95px;
+}
+.container1 a {
+  display: block;
+}
+.container1 a img {
+  width: 103px;
+  height: 56px;
+  display: block;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin: 37px auto 20px auto;
+}
+.container1 ul {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 40px;
+  padding-left: 32px;
+}
+.container1 ul li {
+  width: 230px;
+  height: 23px;
+  float: left;
+  position: relative;
+  cursor: pointer;
+}
+.container1 ul li a {
+  color: #adadad;
+  font-size: 20px;
+}
+.container1 img {
+  display: none;
+}
+.dingw1 {
+  position: absolute;
+  top: 127px;
+  left: 70px;
+}
+.dingw2 {
+  position: absolute;
+  top: 127px;
+  left: 300px;
+}
+.dingw3 {
+  position: absolute;
+  top: 127px;
+  left: 535px;
+}
+.dingw4 {
+  position: absolute;
+  top: 127px;
+  left: 768px;
+}
+.dingw5 {
+  position: absolute;
+  top: 127px;
+  right: 342px;
+}
+.floor2 {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+.floor2 div {
+  width: 6800px;
+  height: 500px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.floor2 div img {
+  width: 1360px;
+  height: 500px;
+  display: block;
+  float: left;
+}
+.floor2 ul {
+  width: 100px;
+  height: 20px;
+  position: absolute;
+  bottom: 30px;
+  left: 0px;
+  right: 0px;
+  margin: 10px auto;
+}
+.floor2 ul li {
+  float: left;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #fff;
+  line-height: 20px;
+  margin-right: 10px;
+}
+.floor2 ul li.active {
+  background-color: red;
+}
+.floor3 {
+  width: 100%;
+}
+.floor3 .container2 {
+  width: 1144px;
+  margin: 0 auto;
+}
+.floor3 .container2 .f3top {
+  text-align: center;
+  width: 100%;
+  display: table;
+  height: 157px;
+}
+.floor3 .container2 .f3top .width {
+  width: 33.33%;
+  display: table-cell;
+  vertical-align: middle;
+  float: left;
+}
+.floor3 .container2 .f3top .width p {
+  font-size: 28px;
+}
+.floor3 .container2 .f3top div:nth-child(1) {
+  /*左*/
+  margin-top: 55px;
+  /* position: relative; */
+}
+.floor3 .container2 .f3top div:nth-child(1) div {
+  background-color: #9a9999;
+  height: 1px;
+  /* position: relative; */
+}
+.floor3 .container2 .f3top div:nth-child(2) {
+  /*中*/
+  font-size: 20px;
+  line-height: 1.2;
+  margin-top: 80px;
+}
+.floor3 .container2 .f3top div:nth-child(3) {
+  /*右*/
+  margin-top: 55px;
+}
+.floor3 .container2 .f3top div:nth-child(3) div {
+  background-color: #9a9999;
+  height: 1px;
+}
+.floor3 .container2 .tpq {
+  width: 100%;
+  /* 
+			.hf{
+				.imgf13{
+						float:left;
+					img{
+						width: 355px;
+						height: 255px;
+					}
+				}
+				a:nth-child(2){
+					float:left;
+					img{
+						width: 377px;
+						height: 255px;
+					}
+
+				}
+				
+			} */
+}
+.floor3 .container2 .tpq div:nth-child(1) {
+  width: 540px;
+  float: left;
+  margin-right: 23px;
+}
+.floor3 .container2 .tpq div:nth-child(1) a {
+  display: block;
+}
+.floor3 .container2 .tpq div:nth-child(1) a img {
+  width: 540px;
+  height: 430px;
+}
+.floor3 .container2 .tpq div:nth-child(2) {
+  width: 572px;
+  float: left;
+}
+.floor3 .container2 .tpq div:nth-child(2) a {
+  display: block;
+  margin-bottom: 27px;
+  margin-left: 10px;
+}
+.floor3 .container2 .tpq div:nth-child(2) a img {
+  width: 571px;
+  height: 201px;
+}
+.floor3 .container2 .tpq div:nth-child(2) a img p {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 18px;
+}
+.floor3 .container2 .tpq .hf {
+  float: left;
+  width: 100%;
+}
+.floor3 .container2 .tpq .hf a:nth-child(1) {
+  float: left;
+  display: block;
+  margin-right: 28px;
+}
+.floor3 .container2 .tpq .hf a:nth-child(1) img {
+  width: 355px;
+  height: 255px;
+}
+.floor3 .container2 .tpq .hf a:nth-child(2) {
+  float: left;
+  margin-right: 28px;
+}
+.floor3 .container2 .tpq .hf a:nth-child(2) img {
+  width: 377px;
+  height: 255px;
+}
+.floor3 .container2 .tpq .hf a:nth-child(2) {
+  float: left;
+  margin-right: 28px;
+}
+.floor3 .container2 .tpq .hf a:nth-child(2) img {
+  width: 377px;
+  height: 255px;
+}
+.floor3 .container2 .f3boxx {
+  overflow: hidden;
+  height: 418px;
+  width: 1145px;
+  position: relative;
+}
+.floor3 .container2 .f3boxx .first1 {
+  width: 100%;
+}
+.floor3 .container2 .f3boxx .first1 a {
+  width: 1145px;
+  height: 418px;
+}
+.floor3 .container2 .f3boxx .first1 a img {
+  width: 100%;
+}
+.floor3 .container2 .f3boxx .first2,
+.floor3 .container2 .f3boxx .first3 {
+  width: 100%;
+}
+.floor3 .container2 .f3boxx .first2 a,
+.floor3 .container2 .f3boxx .first3 a {
+  display: block;
+  float: left;
+}
+.floor3 .container2 .f3boxx .first2 a img,
+.floor3 .container2 .f3boxx .first3 a img {
+  width: 286px;
+  height: 283px;
+}
+.floor3 .container2 .f3boxx .first2 a h5,
+.floor3 .container2 .f3boxx .first3 a h5 {
+  text-align: center;
+}
+.floor3 .container2 .f3boxx ul {
+  width: 100px;
+  line-height: 20px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 50px;
+  margin: 0 auto;
+}
+.floor3 .container2 .f3boxx ul li {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background-color: #ccc;
+  float: left;
+  margin-right: 10px;
+}
+.floor3 .container2 .f3boxx ul li.active {
+  background-color: red;
+}
+.tpq1 {
+  width: 100%;
+}
+.tpq1 a {
+  display: block;
+}
+.tpq1 a img {
+  float: left;
+  margin-right: 6px;
+  width: 375px;
+  height: 430px;
+}
+.tpq1_7 {
+  width: 100%;
+}
+.tpq1_7 a {
+  display: block;
+  margin-left: 39px;
+  width: 323px;
+  float: left;
+}
+.tpq1_7 a img {
+  display: block;
+  float: left;
+  width: 100%;
+}
+.tpq1_8 {
+  width: 100%;
+  padding: 0 33px 95px 24px;
+}
+.tpq1_8 a {
+  display: block;
+  float: left;
+  margin-left: 39px;
+  width: 323px;
+  height: 284px;
+}
+.tpq1_8 a img {
+  display: block;
+  float: left;
+  width: 100%;
+  margin-bottom: 18px;
+}
+.tpq1_8 a p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 18px;
+  color: #313131;
+  font-weight: 600;
+}
+.tpq6 {
+  width: 100%;
+}
+.tpq6 div:nth-child(1) {
+  float: left;
+  margin-right: 25px;
+  margin-left: 52px;
+}
+.tpq6 div:nth-child(1) a > img {
+  width: 490px;
+  height: 510px;
+}
+.tpq6 div:nth-child(2) {
+  float: left;
+}
+.tpq6 div:nth-child(2) .a1 > img {
+  width: 533px;
+  height: 240px;
+}
+.tpq6 div:nth-child(2) .a2 > img {
+  width: 533px;
+  height: 240px;
+}
+.floor9 {
+  width: 100%;
+}
+.floor9 .container2 {
+  width: 1144px;
+  margin: 0 auto;
+  background-color: #333;
+}
+.floor9 .container2 .f3top {
+  width: 100%;
+  display: table;
+  height: 100px;
+  text-align: center;
+}
+.floor9 .container2 .f3top .width {
+  width: 33.33%;
+  display: table-cell;
+  vertical-align: middle;
+  float: left;
+}
+.floor9 .container2 .f3top div:nth-child(1) {
+  /*左*/
+  margin-top: 70px;
+}
+.floor9 .container2 .f3top div:nth-child(1) a {
+  color: #fff;
+  margin-right: 15px;
+}
+.floor9 .container2 .f3top div:nth-child(2) {
+  /*中*/
+  font-size: 20px;
+  line-height: 1.2;
+  margin-top: 48px;
+}
+.floor9 .container2 .f3top div:nth-child(2) a > img {
+  margin-left: 173px;
+}
+.floor9 .container2 .f3top div:nth-child(3) {
+  /*右*/
+  margin-top: 20px;
+}
+.floor9 .container2 .f3top div:nth-child(3) a > img {
+  margin-left: 242px;
+}
+img:hover {
+  -webkit-animation: imgAnimate 0.5s linear forwards;
+          animation: imgAnimate 0.5s linear forwards;
+}
+@-webkit-keyframes imgAnimate {
+  to {
+    opacity: 0.7;
+  }
+}
+@keyframes imgAnimate {
+  to {
+    opacity: 0.7;
+  }
+}

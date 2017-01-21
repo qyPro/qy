@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="../dest/global.css">
+    <link rel="stylesheet" href="../dest/hotel.css">
+    
+</head>
+
+<body>
+    <header id="header" class="">
+    </header>
+    <header id="hf-header" class="">
+        <img src="../images/Hotel/head_bg.jpg" alt="">
+        <div class="hf-header-shou">
+            <p class="hf-header-p1">全球超过108万家酒店任你选择</p>
+            <p class="hf-header-p2">来自千万穷游er的500万条真实评论</p>
+            <div class=" hf-input clear">
+                <input type="" value="想去哪里">
+                <input type="date">
+                <input type="date">
+                <input type="button" value="搜索酒店">
+            </div>
+            <p class="hf-header-p3"><a href="javascript:;" title="">双十一酒店返现活动</a></p>
+            <div>
+            </div>
+        </div>
+    </header>
+    <!-- content -->
+    <div class="hf-hotel-content hotel-con">
+        <h1>当季热门</h1>
+        <p>探索来自世界最热门目的地酒店</p>
+        <div class="hf-hotel-tu clear">
+        </div>
+        <script id="hotel" type="text/html">
+            ##for(var i=0;i<hotelpo.length;i++){## 
+	            <div>
+	                <img src="{{hotelpo[i].img}}" alt="">
+	                <p class="hf-tu-p1">{{hotelpo[i].p}}</p>
+	                <p class="hf-tu-p2"><span>{{hotelpo[i].span}}</span>住宿</p>
+			    </div>
+		    ##}##
+    </script>
+    </div>
+    <div class="hf-hothotel hotel-con clear">
+        <p>国外热门酒店预订</p>
+        <ul id="hf-hot-ul" class=" clear">
+        </ul>
+        <script id="yuding" type="text/html">
+            ##for(var i=0;i
+            <yudingpo.length;i++){## <li>{{yudingpo[i]}}</li>
+                ##}##
+        </script>
+    </div>
+    <div class="hf-hotcity hotel-con clear">
+        <p>热门城市酒店预订</p>
+        <ul id="hf-hot-ul2" class=" clear">
+        </ul>
+        <script id="yuding2" type="text/html">
+            ##for(var i=0;i
+            <yudingpo2.length;i++){## <li>{{yudingpo2[i]}}</li>
+                ##}##
+        </script>
+    </div>
+    <div class="hf-bigWorld-footer">
+        <div class="hf-container">
+            <a href="#" title="">机酒自由行</a>|
+            <a href="#" title="">城市玩乐</a>|
+            <a href="#" title="">签证</a>|
+            <a href="#" title="">租车自驾</a>|
+            <a href="#" title="">邮轮</a>|
+            <a href="#" title="">海岛游</a>|
+            <a href="#" title="">限时特卖</a>|
+            <a href="#" title="">特色路线</a>|
+            <a href="#" title="">CityWork</a>
+        </div>
+        <ul class="hf-container clear">
+            <li class="clear">
+                <img src="../images/bigworld/footer1.png" alt="">
+                <div>
+                    <p>专业保证</p>
+                    <p>我们收集穷游er的真实诉求，也找寻全世界最独特的旅行目的地，让更多的穷游er轻松出行</p>
+                </div>
+            </li>
+            <li class="clear">
+                <img src="../images/bigworld/footer2.png" alt="">
+                <div>
+                    <p>专业保证</p>
+                    <p>我们收集穷游er的真实诉求，也找寻全世界最独特的旅行目的地，让更多的穷游er轻松出行</p>
+                </div>
+            </li>
+            <li class="clear">
+                <img src="../images/bigworld/footer3.png" alt="">
+                <div>
+                    <p>专业保证</p>
+                    <p>我们收集穷游er的真实诉求，也找寻全世界最独特的旅行目的地，让更多的穷游er轻松出行</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div id="pop"></div>
+    <footer id="footer"></footer>
+    <script src="../global.js"></script>
+    <script>
+    seajs.config({
+        base: './'
+    });
+    seajs.use('../js/hotel.js', function(hotel) {
+        hotel.init();
+    })
+    </script>
+</body>
+
+</html>

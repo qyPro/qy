@@ -1,4 +1,5 @@
 *{
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -43,11 +44,21 @@ input:focus {
     visibility: hidden;
     content: '';
 }
+.clearfix:after {
+    height: 0;
+    clear: both;
+    display: block;
+    visibility: hidden;
+    content: '';
+}
 
 @font-face {
     font-family: 'iconfont';
-    src: url('../fonts/iconfont.eot');
-    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'), url('../fonts/iconfont.woff') format('woff'), url('../fonts/iconfont.ttf') format('truetype'), url('../fonts/iconfont.svg#iconfont') format('svg');
+    src: url('../fonts/hcx/iconfont.eot');
+    src: url('../fonts/hcx/iconfont.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/hcx/iconfont.woff') format('woff'), 
+     url('../fonts/hcx/iconfont.ttf') format('truetype'), 
+     url('../fonts/hcx/iconfont.svg#iconfont') format('svg');
 }
 
 .iconfont {
@@ -65,6 +76,8 @@ header {
     height: 60px;
     background-color: #323232;
     .header-left {
+        float: left;
+        width: 700px;
         .logo {
             float: left;
             width: 76px;
@@ -75,6 +88,7 @@ header {
             }
         }
         .nav {
+            float: right;
             >li {
                 float: left;
                 position: relative;
@@ -243,7 +257,9 @@ header {
     }
     .header-right {
         float: right;
+        width: 500px;
         >ul {
+            float: right;
             >li {
                 float: left;
                 position: relative;

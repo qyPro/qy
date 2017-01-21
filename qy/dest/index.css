@@ -387,7 +387,13 @@
   cursor: pointer;
   color: #636363;
 }
+.container .interestcontainer > p i {
+  color: #636363;
+}
 .container .interestcontainer > p:hover {
+  color: #10b041;
+}
+.container .interestcontainer > p:hover i {
   color: #10b041;
 }
 .container .interestcontainer .interest {

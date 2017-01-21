@@ -9,7 +9,9 @@ define(function(require, exports, module) {
             this.dealDownloadList();
             this.dealPlug();
             this.events();
+            // this.getRandom();
         },
+        // 轮播图
         dealSlide: function() {
             var $imgList = $('#slide-box>.slide>li>img');
             var $liList = $('#slide-box>.liList>li');
@@ -73,6 +75,7 @@ define(function(require, exports, module) {
                     outerTimer = setInterval(outerMove, 2500);
                 })
         },
+        // 下载列表运动
         dealDownloadList: function() {
             var timer = null;
             var curTop = 0;
@@ -96,6 +99,7 @@ define(function(require, exports, module) {
                     timer = setInterval(startMove, 40);
                 })
         },
+        // 获取数据
         getData:function(){
         	var that = this;
         	$.ajax({
@@ -104,30 +108,43 @@ define(function(require, exports, module) {
                 async:false,
         		success:function(res){
         			var slikbagData = res.data;
+
+                    // 随机数组，最近7天
+                    var randomArr = that.getRandom(5,4);
+                    var randomData = [];
+                    for( var i = 0; i < randomArr.length; i++ ){
+                        randomData.push(slikbagData[randomArr[i]]);
+                    }
+
+                    // 需要显示的数据数组，按更新时间
+                    var showSlikbagData = slikbagData.slice((current-1)*4,(current-1)*4+4);
                     var areaData = res.areaData;
-                    // 翻页插件 总数
+
+                    // 翻页插件 数据总数
         			totalData = slikbagData.length;
-        			that.fillTabHtml(slikbagData);
-                    that.fillAreaHtml(areaData);
-        			that.dealPlug();
+
+                    // tab 切换 按更新时间
+                    that.fillHtml($('#tab-content'),$('#tab-content-box'),{slikbagData:showSlikbagData});
+
+                    // tab 切换 最近7天下载量
+                    that.fillHtml($('#tab-content-date'),$('#tab-content-box-date'),{slikbagData:randomData});
+                    
+                    // 区域列表
+                    that.fillHtml($('#area-html'),$('#nav-list'),{areaData:areaData});
+        			// that.dealPlug();
         		},
         		error:function(){
         			alert('error');
         		}
         	})
         },
-        fillTabHtml:function(data){
-			var _html = $('#tab-content').html();
+        fillHtml:function(getHtmlNode,appendHtmlNode,obj){
+			var _html = getHtmlNode.html();
 			var _html_fn = _.template(_html);
-			var result_html = _html_fn({slikbagData:data});
-			$('#tab-content-box').html(result_html);
+			var result_html = _html_fn(obj);
+			appendHtmlNode.html(result_html);
         },
-        fillAreaHtml:function(data){
-            var _html = $('#area-html').html();
-            var _html_fn = _.template(_html);
-            var result_html = _html_fn({areaData:data});
-            $('#nav-list').html(result_html);
-        },
+        // 翻页插件
         dealPlug:function(){
         	var that = this;
         	$('#pagination').pagination({
@@ -136,13 +153,16 @@ define(function(require, exports, module) {
     			// pageCount:1, 
 				totalData:totalData,
 				showData:4,
-				current:1,
+				// current:1,
 				count:2,
 				activeCls:'active',
 				coping:true,
 				callback:function(index){
 					var curPage = index.getCurrent();
 					// that.getData();
+                    current = curPage;
+                    // console.log(current);
+                    that.getData();
 				}
         	})
         },
@@ -150,7 +170,10 @@ define(function(require, exports, module) {
         	var that = this;
             var curLeft = 0;
             $('#nav-list .area-list').css({'margin-left':'0px'});
+            // table 切换
         	$('#download .tab a').click(function(){
+                var show = $('#download .tab a').index(this);
+                $('.tab-content-box').eq(show).show().siblings('ul').hide();
         		$(this).addClass('active').siblings('a').removeClass('active');
         		that.getData();
         	});
@@ -193,6 +216,17 @@ define(function(require, exports, module) {
                 $('#nav-list .area-list').eq(index).stop(true,true).animate({'left':curLeft+'px'});
                 $('#nav-list .btn-group .next').css({'background-color': '#636363'})
             })
+        },
+        // 获取随机数组
+        getRandom:function(length,count){
+            var randomArr = [];
+            do{
+                var randomData = Math.floor(Math.random()*length);
+                if(randomArr.indexOf(randomData) == -1){
+                    randomArr.push(randomData);
+                }
+            }while( randomArr.length < count )
+            return randomArr;
         }
     }
     module.exports = silkbag;

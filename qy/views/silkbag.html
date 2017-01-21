@@ -263,7 +263,9 @@
                         <a href="javascript:void(0)">最近7天下载量</a>
                     </div>
                     <div class="tab-content">
-                        <ul class="tab-content-box" id="tab-content-box">
+                        <ul class="tab-content-box" id="tab-content-box" style="display: block;">
+                        </ul>
+                        <ul class="tab-content-box" id="tab-content-box-date">
                         </ul>
                         <div id="pagination"></div>
                     </div>
@@ -282,7 +284,27 @@
 
 
     <script type='text/html' id="tab-content">
-        ##for( var i = 0; i<4;i++ ){## 
+        ##for( var i = 0; i<slikbagData.length;i++ ){## 
+        <li>
+            <ul class="tab-content-list clear">
+                ##for( var j = 0; j<slikbagData[i].length ; j++ ){## 
+                <li>
+                    <a href="javascript:void(0)" class="show-img">
+                        <img src="{{slikbagData[i][j].imgUrl}}" alt="">
+                        <span class="new"></span>
+                        <div class="mask"></div>
+                    </a>
+                    <p class="name"><a href="javascript:void(0)">{{slikbagData[i][j].name}}</a></p>
+                    <p class="place">{{slikbagData[i][j].place}}</p>
+                    <p class="date">{{slikbagData[i][j].date}}更新</p>
+                    </li>
+                    ##}##
+            </ul>
+            </li>
+            ##}##
+    </script>
+    <script type='text/html' id="tab-content-date">
+        ##for( var i = 0; i<slikbagData.length;i++ ){## 
         <li>
             <ul class="tab-content-list clear">
                 ##for( var j = 0; j<slikbagData[i].length ; j++ ){## 

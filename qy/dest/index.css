@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'iconfont';
-  src: url('iconfont.eot');
-  src: url('iconfont.eot?#iefix') format('embedded-opentype'), url('iconfont.woff') format('woff'), url('iconfont.ttf') format('truetype'), url('iconfont.svg#iconfont') format('svg');
+  src: url('../fonts/lqy/iconfont.eot');
+  src: url('../fonts/lqy/iconfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lqy/iconfont.woff') format('woff'), url('../fonts/lqy/iconfont.ttf') format('truetype'), url('../fonts/lqy/iconfont.svg#iconfont') format('svg');
 }
 .iconfont {
   font-family: "iconfont" !important;
@@ -10,6 +10,7 @@
   -webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: 0.2px;
   -moz-osx-font-smoothing: grayscale;
+  color: #fff;
 }
 .container {
   font-family: Hiragino Sans GB, Microsoft YaHei, SimHei, SimSun, sans-serif;
@@ -59,29 +60,29 @@
   color: #fff;
 }
 .container .bannercontainer .bannerbody .banner1 {
-  background: url(../images/banner1.jpg) no-repeat;
+  background: url(../images/index/banner1.jpg) no-repeat;
   background-size: 100% 100%;
 }
 .container .bannercontainer .bannerbody .banner2 {
-  background: url(../images/banner2.jpg) no-repeat;
+  background: url(../images/index/banner2.jpg) no-repeat;
   background-size: 100% 100%;
 }
 .container .bannercontainer .bannerbody .banner3 {
-  background: url(../images/banner3.jpg) no-repeat;
+  background: url(../images/index/banner3.jpg) no-repeat;
   background-size: 100% 100%;
 }
 .container .bannercontainer .bannerbody .banner4 {
-  background: url(../images/banner4.jpg) no-repeat;
+  background: url(../images/index/banner4.jpg) no-repeat;
   background-size: 100% 100%;
 }
 .container .bannercontainer .bannerbody .banner5 {
-  background: url(../images/banner5.jpg) no-repeat;
+  background: url(../images/index/banner5.jpg) no-repeat;
   background-size: 100% 100%;
 }
 .container .bannercontainer .prevbtn,
 .container .bannercontainer .nextbtn {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 80px;
   color: white;
   font-size: 60px;
   font-weight: 700;
@@ -89,17 +90,18 @@
   line-height: 80px;
   opacity: .75;
   cursor: pointer;
+  font-family: none;
 }
 .container .bannercontainer .prevbtn {
   position: absolute;
   top: 50%;
-  margin-top: -30px;
+  margin-top: -40px;
   left: 30px;
 }
 .container .bannercontainer .nextbtn {
   position: absolute;
   top: 50%;
-  margin-top: -30px;
+  margin-top: -40px;
   right: 30px;
 }
 .container .bannercontainer .inputcontainer {
@@ -125,7 +127,7 @@
   font-weight: 700;
   text-align: center;
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
-  background: url(../images/search_icon.png) no-repeat;
+  background: url(../images/index/search_icon.png) no-repeat;
   cursor: pointer;
 }
 .container .bannercontainer .inputcontainer > ul .li1 {
@@ -341,13 +343,13 @@
 }
 .container .bannercontainer .inputcontainer .inputbody .hotel .hotelin-container {
   position: absolute;
-  top: -540px;
+  top: -600px;
   left: -239px;
   width: 300px;
 }
 .container .bannercontainer .inputcontainer .inputbody .hotel .hotelout-container {
   position: absolute;
-  top: -540px;
+  top: -600px;
   left: -239px;
   width: 500px;
 }
@@ -362,7 +364,7 @@
   margin-left: 20px;
 }
 .container .ads img:first-child {
-  margin-left: 100px;
+  margin-left: 92px;
 }
 .container .interestcontainer {
   width: 1160px;
@@ -513,7 +515,7 @@
   color: #636363;
   text-align: center;
   font-weight: 500;
-  background: url(../images/zworld-title.png) center no-repeat;
+  background: url(../images/index/zworld-title.png) center no-repeat;
 }
 .container .zworldcontainer .zworld .slide .slideitem {
   margin-left: -25px;
@@ -741,18 +743,20 @@
   transition: all 0.2s ease-in-out;
 }
 .container .hottravelcontainer {
-  width: 1060px;
+  width: 1160px;
   margin: 0 auto;
+  margin-top: 50px;
 }
-.container .hottravelcontainer h2 {
+.container .hottravelcontainer .traveltitle {
   height: 74px;
   line-height: 74px;
-  font-size: 36px;
-  font-weight: 500;
+  font-size: 36px !important;
   color: #636363;
   text-align: center;
+  font-weight: 500;
 }
-.container .hottravelcontainer .hottravel {
+.container .hottravelcontainer .hottravel .travelitem {
+  display: none;
   margin-left: -20px;
 }
 .container .hottravelcontainer .hottravel .travelitem li {
@@ -767,36 +771,44 @@
   -webkit-animation: show 0.5s ease-in-out 0s forwards;
           animation: show 0.5s ease-in-out 0s forwards;
 }
-.container .hottravelcontainer .hottravel .travelitem li a .img {
+.container .hottravelcontainer .hottravel .travelitem li > a .travelimg {
   position: relative;
   width: 275px;
   height: 185px;
+  line-height: 185px;
   overflow: hidden;
 }
-.container .hottravelcontainer .hottravel .travelitem li a .img img {
+.container .hottravelcontainer .hottravel .travelitem li > a .travelimg img {
   width: 100%;
   height: 100%;
+  -webkit-transition: all 1.2s ease;
+  transition: all 1.2s ease;
 }
-.container .hottravelcontainer .hottravel .travelitem li a .img p {
+.container .hottravelcontainer .hottravel .travelitem li > a .travelimg img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.container .hottravelcontainer .hottravel .travelitem li > a .travelimg > p {
   position: absolute;
   right: 10px;
-  bottom: 4px;
+  bottom: -80px;
   color: #fff;
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
   padding-left: 26px;
   font-size: 14px;
 }
-.container .hottravelcontainer .hottravel .travelitem li a .img p i {
+.container .hottravelcontainer .hottravel .travelitem li > a .travelimg > p i {
   vertical-align: middle;
 }
-.container .hottravelcontainer .hottravel .travelitem li a .txt {
+.container .hottravelcontainer .hottravel .travelitem li > a .txt {
   border: 1px solid #ececec;
   border-top: 0;
   padding: 0 15px;
   height: 104px;
+  border-color: #d7d7d7;
   position: relative;
 }
-.container .hottravelcontainer .hottravel .travelitem li a .txt a {
+.container .hottravelcontainer .hottravel .travelitem li > a .txt > p {
   display: inline-block;
   padding-left: 70px;
   height: 24px;
@@ -804,17 +816,31 @@
   font-size: 14px;
   color: #636363;
 }
-.container .hottravelcontainer .hottravel .travelitem li a .txt a:hover {
+.container .hottravelcontainer .hottravel .travelitem li > a .txt > p span {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 3px;
+  margin-top: 3px;
+  background: url(../images/index/auth_avatar_q.png);
+  background-position: 0 0;
+}
+.container .hottravelcontainer .hottravel .travelitem li > a .txt > p:hover {
   color: #10b041;
 }
-.container .hottravelcontainer .hottravel .travelitem li a .txt h3 {
+.container .hottravelcontainer .hottravel .travelitem li > a .txt h3 {
   padding-top: 12px;
-  height: 48px;
+  height: 60px;
+  font-size: 16px;
   font-weight: 700;
   overflow: hidden;
   line-height: 24px;
 }
-.container .hottravelcontainer .hottravel .travelitem li a .txt .cir {
+.container .hottravelcontainer .hottravel .travelitem li > a .txt h3:hover {
+  color: #10b041;
+}
+.container .hottravelcontainer .hottravel .travelitem li > a .txt .cir {
   position: absolute;
   top: -30px;
   left: 20px;
@@ -826,7 +852,7 @@
   border-radius: 50%;
   overflow: hidden;
 }
-.container .hottravelcontainer .hottravel .travelitem li a .txt .cir span {
+.container .hottravelcontainer .hottravel .travelitem li > a .txt .cir span {
   display: block;
   width: 48px;
   height: 48px;
@@ -834,7 +860,383 @@
   border-radius: 50%;
   overflow: hidden;
 }
-.container .hottravelcontainer .hottravel .travelitem li a .txt .cir span img {
+.container .hottravelcontainer .hottravel .travelitem li > a .txt .cir span img {
   width: 100%;
   height: 100%;
+}
+.container .hottravelcontainer .travelindicator {
+  margin-top: 30px;
+  text-align: center;
+}
+.container .hottravelcontainer .travelindicator span {
+  display: inline-block;
+  margin: 0 5px;
+  width: 30px;
+  height: 7px;
+  background: #d7d7d7;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.container .hottravelcontainer .travelindicator span:hover,
+.container .hottravelcontainer .travelindicator span.active {
+  background: #1ab05f;
+}
+.container .hottravelcontainer .morebtn {
+  margin-top: 30px;
+  text-align: center;
+}
+.container .hottravelcontainer .morebtn a {
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 3px;
+  border: 1px solid #ececec;
+  width: 220px;
+  height: 50px;
+  line-height: 50px;
+  vertical-align: top;
+  background: #fff;
+  text-align: center;
+  font-size: 20px;
+  color: #636363;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.container .freedomcontainer {
+  border: 1px solid #ececec;
+  border-width: 1px 0;
+  background: #f5f5f5;
+  padding: 20px 0;
+  margin-top: 50px;
+}
+.container .freedomcontainer .freedom {
+  width: 1160px;
+  margin: 0 auto;
+}
+.container .freedomcontainer .freedom .freedom1 {
+  float: left;
+  width: 765px;
+}
+.container .freedomcontainer .freedom .freedom1 h2 {
+  font-size: 30px;
+  text-align: left;
+  color: #636363;
+  height: 74px;
+  line-height: 74px;
+  font-weight: 500;
+}
+.container .freedomcontainer .freedom .freedom1 .freedom1left {
+  float: left;
+  background: #fff;
+  padding-bottom: 20px;
+}
+.container .freedomcontainer .freedom .freedom1 .freedom1left .image {
+  width: 370px;
+  height: 223px;
+  position: relative;
+}
+.container .freedomcontainer .freedom .freedom1 .freedom1left .image img {
+  width: 100%;
+  height: 100%;
+}
+.container .freedomcontainer .freedom .freedom1 .freedom1left .image .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+.container .freedomcontainer .freedom .freedom1 .freedom1left .image .timer {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+}
+.container .freedomcontainer .freedom .freedom1 .freedom1left .image .timer span {
+  line-height: 22px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+}
+.container .freedomcontainer .freedom .freedom1 .freedom1left h4 {
+  padding: 12px 22px 0px;
+  height: 44px;
+  line-height: 22px;
+  overflow: hidden;
+  font-size: 16px;
+  text-align: left;
+  font-weight: 700;
+  color: #323232;
+}
+.container .freedomcontainer .freedom .freedom1 .freedom1left .txt {
+  padding: 14px 22px 0px;
+}
+.container .freedomcontainer .freedom .freedom1 .freedom1left .txt .txtleft {
+  float: left;
+  width: 156px;
+  overflow: hidden;
+}
+.container .freedomcontainer .freedom .freedom1 .freedom1left .txt .txtleft p {
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  display: block;
+  color: #c4c4c4;
+}
+.container .freedomcontainer .freedom .freedom1 .freedom1left .txt .txtleft .txt1 {
+  color: #fe7369;
+}
+.container .freedomcontainer .freedom .freedom1 .freedom1left .txt .btnright {
+  float: right;
+  border-radius: 5px;
+  width: 160px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: Hiragino Sans GB, Microsoft YaHei, SimHei, SimSun, sans-serif;
+  font-weight: 700;
+  color: #fff;
+  background: #fd756a;
+  text-align: center;
+}
+.container .freedomcontainer .freedom .freedom1 .freedom1right {
+  float: right;
+}
+.container .freedomcontainer .freedom .freedom1 .freedom1right .image {
+  width: 370px;
+  height: 125px;
+}
+.container .freedomcontainer .freedom .freedom1 .freedom1right .image img {
+  width: 100%;
+  height: 100%;
+}
+.container .freedomcontainer .freedom .freedom1 .freedom1right .imgtxt {
+  background: #fff;
+}
+.container .freedomcontainer .freedom .freedom1 .freedom1right .imgtxt img {
+  float: left;
+  width: 170px;
+  height: 124px;
+}
+.container .freedomcontainer .freedom .freedom1 .freedom1right .imgtxt .txt {
+  float: right;
+  width: 200px;
+  padding: 12px 22px 0;
+}
+.container .freedomcontainer .freedom .freedom1 .freedom1right .imgtxt .txt h4 {
+  height: 44px;
+  line-height: 22px;
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: 700;
+  color: #323232;
+}
+.container .freedomcontainer .freedom .freedom1 .freedom1right .imgtxt .txt .ptxt {
+  margin-top: 14px;
+}
+.container .freedomcontainer .freedom .freedom1 .freedom1right .imgtxt .txt .ptxt p {
+  height: 22px;
+  line-height: 22px;
+  font-size: 14px;
+  color: #c4c4c4;
+}
+.container .freedomcontainer .freedom .freedom1 .freedom1right .imgtxt .txt .ptxt .txt1 {
+  color: #fe7369;
+}
+.container .freedomcontainer .freedom .freedom1 .freedom1right .photo {
+  position: relative;
+  margin-top: 25px;
+  height: 66px;
+  background: #fff;
+  overflow: hidden;
+}
+.container .freedomcontainer .freedom .freedom1 .freedom1right .photo h4 {
+  float: left;
+  padding: 13px;
+  width: 66px;
+  height: 66px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #787878;
+  text-align: center;
+}
+.container .freedomcontainer .freedom .freedom1 .freedom1right .photo ul {
+  position: relative;
+  overflow: hidden;
+  width: 305px;
+  height: 66px;
+  /* padding: 13px 0; */
+}
+.container .freedomcontainer .freedom .freedom1 .freedom1right .photo ul li {
+  float: left;
+  padding: 13px 10px;
+}
+.container .freedomcontainer .freedom .freedom1 .freedom1right .photo ul li img {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  vertical-align: middle;
+}
+.container .freedomcontainer .freedom .freedom2 {
+  float: right;
+  width: 370px;
+}
+.container .freedomcontainer .freedom .freedom2 .title {
+  text-align: left;
+  font-size: 28px;
+  height: 74px;
+  line-height: 74px;
+  font-weight: 500;
+  color: #636363;
+}
+.container .freedomcontainer .freedom .freedom2 .title a {
+  float: right;
+  margin-top: 26px;
+  width: 80px;
+  height: 26px;
+  line-height: 26px;
+  border-radius: 3px;
+  text-align: center;
+  color: #fff;
+  background: #10b041;
+  font-size: 14px;
+}
+.container .freedomcontainer .freedom .freedom2 .content {
+  overflow: hidden;
+  width: 100%;
+  height: 340px;
+}
+.container .freedomcontainer .freedom .freedom2 .content .contentshow .info {
+  margin-bottom: 20px;
+  width: 370px;
+  height: 160px;
+  border: 1px solid #ececec;
+  padding: 15px;
+  background: #fff;
+}
+.container .freedomcontainer .freedom .freedom2 .content .contentshow .info .image {
+  position: relative;
+  float: left;
+  padding: 4px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #ececec;
+}
+.container .freedomcontainer .freedom .freedom2 .content .contentshow .info .image span {
+  width: 52px;
+  height: 52px;
+  display: block;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.container .freedomcontainer .freedom .freedom2 .content .contentshow .info .image span img {
+  width: 100%;
+  height: 100%;
+}
+.container .freedomcontainer .freedom .freedom2 .content .contentshow .info .txt {
+  float: right;
+  width: 258px;
+}
+.container .freedomcontainer .freedom .freedom2 .content .contentshow .info .txt > p {
+  overflow: hidden;
+  white-space: nowrap;
+  color: #959595;
+  font-size: 14px;
+}
+.container .freedomcontainer .freedom .freedom2 .content .contentshow .info .txt > p span {
+  color: #323232;
+  font-size: 16px;
+  display: inline-block;
+}
+.container .freedomcontainer .freedom .freedom2 .content .contentshow .info .txt ul {
+  margin-top: 10px;
+}
+.container .freedomcontainer .freedom .freedom2 .content .contentshow .info .txt ul li {
+  float: left;
+  height: 24px;
+  width: 24px;
+  font-size: 24px;
+  color: #ececec;
+}
+.container .freedomcontainer .freedom .freedom2 .content .contentshow .info .txt ul li.active {
+  color: #5cad77;
+}
+.container .freedomcontainer .freedom .freedom2 .content .contentshow .info .txt .desc {
+  position: relative;
+  margin-top: 10px;
+  max-height: 60px;
+  line-height: 20px;
+  font-size: 14px;
+  color: #636363;
+  overflow: hidden;
+}
+.container .freedomcontainer .freedom .freedom2 .content .contentshow .info .txt .desc p {
+  line-height: 20px;
+  height: 60px;
+  font-size: 14px;
+  color: #636363;
+}
+.container .freedomcontainer .freedom .freedom2 .content .contentshow .info .txt .desc span {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 0 5px;
+  height: 20px;
+  line-height: 20px;
+  background: #fff;
+  box-shadow: -10px 0 10px rgba(255, 255, 255, 0.9);
+  color: #10b041;
+  cursor: pointer;
+}
+.container .application {
+  width: 1160px;
+  margin: 50px auto;
+}
+.container .application .apps {
+  float: left;
+}
+.container .application .wechat {
+  float: right;
+}
+.container .application .apps h2,
+.container .application .wechat h2 {
+  float: left;
+  font-size: 28px;
+  line-height: 100px;
+  height: 74px;
+  width: 110px;
+  color: #636363;
+  text-align: center;
+  font-weight: 500;
+}
+.container .application .apps ul,
+.container .application .wechat ul {
+  float: right;
+  width: 440px;
+}
+.container .application .apps ul li,
+.container .application .wechat ul li {
+  float: left;
+  margin-left: 30px;
+  text-align: center;
+}
+.container .application .apps ul li a img,
+.container .application .wechat ul li a img {
+  width: 80px;
+  height: 80px;
+}
+.container .application .apps ul li p,
+.container .application .wechat ul li p {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #636363;
 }

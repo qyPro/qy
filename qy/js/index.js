@@ -11,11 +11,12 @@ $(function() {
                 this.dealSlide();
                 this.dealInput();
                 this.zworldEvents();
+                this.hottravelEvents();
             },
             ajaxData: function() {
                 var that = this;
                 $.ajax({
-                    url: '../jsondoc/index.json',
+                    url: '../json/index.json',
                     type: 'get',
                     success: function(res) {
                         console.log(res);
@@ -23,6 +24,8 @@ $(function() {
                             that.inputData(res.data);
                             that.interestData(res.data);
                             that.zworldData(res.data);
+                            that.hottravelData(res.data);
+                            that.freedomData(res.data);
                         }
                     }
                 })
@@ -85,7 +88,9 @@ $(function() {
                     $('.destination .hotsearch').css({ 'display': 'block' });
                 });
                 $('.destination>input').on('blur', function(ev) {
-                    // $('.destination .hotsearch').css({ 'display': 'none' });
+                    setTimeout(function(){
+                        $('.destination .hotsearch').css({ 'display': 'none' });
+                    },500);
                 });
 
                 // 买折扣 input的焦点事件
@@ -93,7 +98,9 @@ $(function() {
                     $('.discount .hotsearch').css({ 'display': 'block' });
                 });
                 $('.discount>input').on('blur', function(ev) {
-                    // $('.discount .hotsearch').css({ 'display': 'none' });
+                    setTimeout(function(){
+                        $('.discount .hotsearch').css({ 'display': 'none' });
+                    },500);
                 });
 
                 // 酒店 input的焦点事件
@@ -201,9 +208,7 @@ $(function() {
             zworldData: function(data) {
             	var that = this;
                 var zworldData = data.zworld;
-                console.log(zworldData.buytoday);
-                var showIndex = 0;
-                var eleArr = [$('#buytodayModel').html(),$('#buynext1Model').html(),$('#buynext2Model').html(),$('#buynext3Model').html(),$('#buynext4Model').html()];
+                // console.log(zworldData.buytoday);
                 
                 var buyTodayEle = $('#buytodayModel').html();
                 var buyTodayFn = _.template(buyTodayEle);
@@ -231,7 +236,52 @@ $(function() {
 	                $('.slide>.slideitem').eq(index).show().siblings().hide();
 	                $(this).addClass('active').siblings().removeClass('active');
 	            })
-	        }
+	        },
+            hottravelData:function(data){
+                // console.log(hotData);
+                var travelEle = $('#hottravelModel').html();
+                var travelFn = _.template(travelEle);
+                var travelStr = travelFn({travelArr:data.hottravel});
+                $('.hottravel').append(travelStr);
+
+                $('.hottravel .travelitem').eq(0).css({'display':'block'});
+            },
+            hottravelEvents:function(){
+                $('.travelindicator>span').hover(function(){
+                    var index = $(this).index();
+                    $(this).addClass('active').siblings().removeClass('active');
+                    $('.hottravel .travelitem').eq(index).css({'display':'block'}).siblings().css({'display':'none'});
+                });
+            },
+            freedomData:function(data){
+                var _html = $('#freedomModel').html();
+                var Fn = _.template(_html);
+                var _str = Fn({freedomArr:data.freedom});
+                $('.freedom2 .contentshow').append(_str);
+
+                var count = data.freedom.length;
+                // star星级显示
+                for (var i = 0; i < count; i++) {
+                    var star = data.freedom[i].star;
+                    // console.log(star);
+                    for(var j=0;j<star;j++){
+                        $('.contentshow .info').eq(i).find('.star>li').eq(j).addClass('active');
+                    }
+                }
+
+                // 每个info的高度180px
+                var height = 180,
+                    index = 0;
+                var timer1 = setInterval(infoTimerFn,3000);
+                function infoTimerFn(){
+                    var mt = (-height*index)+'px';
+                    $('.contentshow').animate({'margin-top':mt},800);
+                    index++;
+                    if (index>=count-1) {
+                        index=0;
+                    }
+                }
+            }
         }
 	indexPage.init();
 })

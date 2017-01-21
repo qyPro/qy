@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'iconfont';
-  src: url('../ljjiconfont/iconfont.eot');
-  src: url('../ljjiconfont/iconfont.eot?#iefix') format('embedded-opentype'), url('../ljjiconfont/iconfont.woff') format('woff'), url('../ljjiconfont/iconfont.ttf') format('truetype'), url('../ljjiconfont/iconfont.svg#iconfont') format('svg');
+  src: url('../fonts/ljj/iconfont.eot');
+  src: url('../fonts/ljj/iconfont.eot?#iefix') format('embedded-opentype'), url('../fonts/ljj/iconfont.woff') format('woff'), url('../fonts/ljj/iconfont.ttf') format('truetype'), url('../fonts/ljj/iconfont.svg#iconfont') format('svg');
 }
 .iconfont {
   font-family: "iconfont" !important;

@@ -117,6 +117,9 @@
   vertical-align: middle;
   float: left;
 }
+.floor3 .container2 .f3top .width p {
+  font-size: 28px;
+}
 .floor3 .container2 .f3top div:nth-child(1) {
   /*左*/
   margin-top: 55px;

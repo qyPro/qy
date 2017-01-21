@@ -1,30 +1,29 @@
 define(function(require, exports, module) {
+    var checkForm = require('./checkForm.js');
     var Login = {
         init: function() {
             this.dealLogin();
+            this.events();
         },
         dealLogin: function() {
             var mailFlag = false;
             var pwdFlag = false;
             $('.mail').on('input', function() {
-
-                var reg = /^(\w)+(\.\w+)*@(\w)+((\.\w+)+)$/;
                 var mailVal = $('.mail').val();
-                if (reg.test(mailVal.trim())) {
+                if(checkForm.checkEmail(mailVal)){
                     mailFlag = true;
                     $('.mailP1>span').hide();
-                } else {
+                }else{
                     mailFlag = false;
                     $('.mailP1>span').show();
                 }
             })
             $('.pwd').on('input', function() {
-                var reg2 = /^$/;
                 var pwd = $('.pwd').val();
-                if (pwd.length < 16 && pwd.length > 6) {
-                    $('.mailP2>span').hide();
+                if(checkForm.checkPassword(pwd)){
                     pwdFlag = true;
-                } else {
+                    $('.mailP2>span').hide();
+                }else{
                     pwdFlag = false;
                     $('.mailP2>span').show();
                 }
@@ -35,6 +34,11 @@ define(function(require, exports, module) {
                 } else {
                     return;
                 }
+            })
+        },
+        events:function(){
+            $('#login-logo').click(function(){
+                location.href = '../views/index.html';
             })
         }
     }

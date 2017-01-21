@@ -1,0 +1,154 @@
+.hf-register {
+  width: 100%;
+  position: relative;
+}
+.hf-register .hf-register-img1 {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.hf-register .hf-register-top {
+  width: 380px;
+  position: absolute;
+  top: 60px;
+  left: 480px;
+}
+.hf-register .hf-register-top > img {
+  margin-left: 108px;
+  width: 126px;
+  height: 46px;
+  float: left;
+  display: block;
+}
+.hf-register .hf-register-top > p {
+  float: left;
+  font-size: 34px;
+  color: white;
+  line-height: 46px;
+}
+.hf-register .act {
+  border-bottom: 2px solid #3f9f5f;
+}
+.hf-register .hf-res-kuang {
+  position: absolute;
+  top: 160px;
+  left: 480px;
+  width: 380px;
+  padding: 20px;
+  background-color: white;
+}
+.hf-register .hf-res-kuang .hf-kuang1 {
+  margin-bottom: 10px;
+}
+.hf-register .hf-res-kuang .hf-kuang1 p {
+  float: left;
+  width: 170px;
+  line-height: 60px;
+  text-align: center;
+  color: #959595;
+  font-size: 16px;
+  cursor: pointer;
+}
+.hf-register .hf-res-kuang .hf-kuang1 p:hover {
+  color: #3f9f5f;
+}
+.hf-register .hf-res-kuang .hf-k-input1 {
+  width: 100%;
+  padding: 11px 10px;
+}
+.hf-register .hf-res-kuang .hf-err1,
+.hf-register .hf-res-kuang .hf-err2,
+.hf-register .hf-res-kuang .hf-err3,
+.hf-register .hf-res-kuang .hf-err4,
+.hf-register .hf-res-kuang .hf-err5 {
+  height: 30px;
+  line-height: 30px;
+}
+.hf-register .hf-res-kuang .hf-err1 span,
+.hf-register .hf-res-kuang .hf-err2 span,
+.hf-register .hf-res-kuang .hf-err3 span,
+.hf-register .hf-res-kuang .hf-err4 span,
+.hf-register .hf-res-kuang .hf-err5 span {
+  margin-left: 10px;
+  color: #ff654c;
+  font-size: 12px;
+  display: none;
+}
+.hf-register .hf-res-kuang .hf-k2 .hf-k-input2 {
+  float: left;
+  width: 200px;
+  padding: 11px 10px;
+}
+.hf-register .hf-res-kuang .hf-k2 > div {
+  float: left;
+  width: 125px;
+  height: 42px;
+  margin-left: 10px;
+}
+.hf-register .hf-res-kuang .hf-k2 > div a img {
+  width: 125px;
+  height: 42px;
+}
+.hf-register .hf-res-kuang .hf-k3 .k3-inp1 {
+  float: left;
+  width: 200px;
+  padding: 11px 10px;
+}
+.hf-register .hf-res-kuang .hf-k3 > div {
+  float: left;
+  width: 125px;
+  height: 42px;
+  margin-left: 10px;
+  background-color: #6cb36f;
+  text-align: center;
+  line-height: 42px;
+  border-radius: 5px;
+}
+.hf-register .hf-res-kuang .hf-k3 > div a span {
+  color: white;
+}
+.hf-register .hf-res-kuang .hf-k-input3,
+.hf-register .hf-res-kuang .hf-k-input4 {
+  width: 100%;
+  padding: 11px 10px;
+}
+.hf-register .hf-res-kuang .hf-zhuce {
+  width: 330px;
+  background-color: #3f9f5f;
+  text-align: center;
+  line-height: 37px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.hf-register .hf-res-kuang .hf-res-bottom {
+  width: 330px;
+  margin-top: 10px;
+}
+.hf-register .hf-res-kuang .hf-res-bottom p:first-child {
+  float: left;
+  color: #959595;
+  font-size: 14px;
+}
+.hf-register .hf-res-kuang .hf-res-bottom p:first-child a {
+  color: #3f9f5f;
+}
+.hf-register .hf-res-kuang .hf-res-bottom p:first-child a:hover {
+  text-decoration: underline;
+}
+.hf-register .hf-res-kuang .hf-res-bottom p:last-child {
+  float: right;
+  color: #959595;
+  font-size: 14px;
+}
+.hf-register .hf-res-kuang .hf-res-bottom p:last-child .hf-res-bottom-a1,
+.hf-register .hf-res-kuang .hf-res-bottom p:last-child .hf-res-bottom-a2 {
+  color: #3f9f5f;
+}
+.hf-register .hf-res-kuang .hf-res-bottom p:last-child .hf-res-bottom-a1:hover,
+.hf-register .hf-res-kuang .hf-res-bottom p:last-child .hf-res-bottom-a2:hover {
+  text-decoration: underline;
+}

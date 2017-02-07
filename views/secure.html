@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>保险</title>
+    <!-- 公用样式 -->
+    <link rel="stylesheet" href="../dest/global.css">
+    <!-- 页面样式 -->
+    <link rel="stylesheet" href="../dest/secure.css">
+</head>
+
+<body>
+    <header id="header"></header>
+    <div class="secure-container">
+        <div class="secure-content clear">
+            <!-- 目录 -->
+            <div class="catalog">
+                <a href="#">穷游</a>
+                <span>&gt; 穷游网旅行保险</span>
+            </div>
+            <!-- 标题 -->
+            <div class="title clear">
+                <h2>旅行保险</h2>
+                <span>出境旅行，情况复杂，好的保险在某些情况下能救你一命，这里汇集了最适合出境旅行的保险，一定要选一个再上路。</span>
+            </div>
+            <!-- 左侧内容 -->
+            <div class="content-left">
+                <!-- 热门保险 -->
+                <div class="hot-secure">
+                    <h4>热门保险</h4>
+                    <div class="hot-imgList">
+                        <a href="#"><img src="../images/secure/hot_1.jpg" alt=""></a>
+                        <a href="#"><img src="../images/secure/hot_2.jpg" alt=""></a>
+                        <a href="#"><img src="../images/secure/hot_3.jpg" alt=""></a>
+                    </div>
+                </div>
+                <!-- 保险选择 -->
+                <div class="choice-secure">
+                    <h4>保险选择</h4>
+                    <div class="choice-list clear">
+                        <label>旅行地区：</label>
+                        <div class="list">
+                            <a class="active" href="javascript:void(0)">全部</a>
+                            <a href="javascript:void(0)">境内</a>
+                            <a href="javascript:void(0)">港澳台</a>
+                            <a href="javascript:void(0)">日本</a>
+                            <a href="javascript:void(0)">东南亚</a>
+                            <a href="javascript:void(0)">亚洲其他(除日本)地区</a>
+                            <a href="javascript:void(0)">欧洲申根地</a>
+                            <a href="javascript:void(0)">美国/加拿大</a>
+                            <a href="javascript:void(0)">美洲其他(除美加)地区</a>
+                            <a href="javascript:void(0)">大洋洲</a>
+                            <a href="javascript:void(0)">非洲</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 产品列表 -->
+                <div class="product-list">
+                    <div class="list-title clear">
+                        <div class="sort">
+                            <span>排序:&nbsp;</span>
+                            <a class="active" href="javascript:void(0)">推荐</a>
+                            <span>|</span>
+                            <a href="javascript:void(0)">价格</a>
+                        </div>
+                        <div class="result">
+                            共21款保险产品满足要求
+                        </div>
+                    </div>
+                    <ul class="list-content">
+                    </ul>
+                </div>
+            </div>
+            <!-- 右侧内容 -->
+            <div class="content-right">
+                <img src="../images/secure/content_right_1.png" alt="">
+                <div class="flow">
+                    <h4>保险预定流程</h4>
+                    <img src="../images/secure/content_right_2.png" alt="">
+                </div>
+                <img src="../images/secure/content_right_3.png" alt="">
+                <img src="../images/secure/content_right_4.png" alt="">
+            </div>
+        </div>
+    </div>
+    <nav id="nav"></nav>
+    <footer id="footer"></footer>
+    <div id="pop"></div>
+    <script type='text/html' id="secure-html">
+        ##for( var i = 0; i
+        <secureData.length; i++ ){## <li class="clear">
+            <a href="#"><img src="{{secureData[i].imgUrl}}" alt=""></a>
+            <div class="pro-info clear">
+                <div class="info-txt">
+                    <h4><a href="#">{{secureData[i].title}}</a></h4>
+                    <p>{{secureData[i].desc}}</p>
+                </div>
+                <div class="info-money">
+                    <p>
+                        <span class="mark">￥</span>
+                        <span class="number">{{secureData[i].number}}</span>
+                        <span class="currency">元</span>
+                    </p>
+                    <button>查看详情</button>
+                </div>
+                <ul class="sum-money">
+                    ##for( var j = 0; j
+                    <secureData[i].sumMoney.length; j++ ){## <li class="clear">
+                        <span>{{secureData[i].sumMoney[j].type}}</span>
+                        <span class="money">{{secureData[i].sumMoney[j].money}}元</span>
+                        </li>
+                        ##}##
+                </ul>
+                <ul class="type">
+                    ##for( var k = 0; k
+                    <secureData[i].sumMoney.length; k++ ){## <li>{{secureData[i].type[k]}}</li>
+                        ##}##
+                </ul>
+            </div>
+            </li>
+            ##}##
+    </script>
+    <script src='../global.js'></script>
+    <script>
+    seajs.config({
+        base: './'
+    });
+    seajs.use('../js/secure.js', function(secure) {
+        secure.init();
+    })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>邮轮</title>
+	<link rel="stylesheet" href="../dest/global.css">
+	<!-- 页面样式 -->
+	<link rel="stylesheet" href="../dest/mail.css">
+	<!-- 分页插件 -->
+	<!-- <link rel="stylesheet" type="text/css" href="../plug/clipPage/css/page.css"> -->
+</head>
+<body>
+	<!-- 头部 -->
+	<header id="header"></header>
+	<!-- 主题区域 -->
+	<div class="mail-container">
+		<div class="top clear">
+			<a href="javascript:void(0)">
+				<img src="../images/mail/logo.png" alt="">
+			</a>
+			<div class="search">
+				<input type="text" placeholder="搜索国家、城市、产品">
+			</div>
+			<div class="me">
+				<p>
+					<span class="iconfont"></span>
+					<span>我的订单</span>
+					<span class="line"></span>
+				</p>
+				<p>
+					<span class="iconfont"></span>
+					<span>我的收藏</span>
+				</p>
+			</div>
+		</div>
+		<div class="content"></div>
+	</div>
+	<!-- 预定公用部分 -->
+	<nav id="nav"></nav>
+	<!-- 尾部 -->
+	<footer id="footer"></footer>
+	<!-- 弹出广告 -->
+	<!-- <div id="pop"></div> -->
+	<script src='../global.js'></script>
+	<!-- <script src='../plug/clipPage/js/page.js'></script> -->
+	<script>
+		seajs.config({
+			base:'./'
+		})
+		seajs.use('../js/mail.js',function(mail){
+			mail.init();
+		})
+	</script>
+</body>
+</html>

@@ -1,12 +1,329 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <link rel="stylesheet" href="">
+    <title>穷游</title>
+    <link rel="stylesheet" href="dest/global.css">
 </head>
+
 <body>
-    asdsda
+    <header id="header" class="clearfix"></header>
+    <div class="container">
+        <h1>container</h1>
+    </div>
+    <footer id="footer"></footer>
+    <div id="pop"></div>
 </body>
+<script src='global.js'></script>
+<!-- <script src='bower_components/jquery/dist/jquery.min.js'></script> -->
+<!-- <script src='bower_components/seajs/dist/sea.js'></script> -->
+<!-- <script src='bower_components/seajs-text/dist/seajs-text.js'></script> -->
+<!-- <script src='bower_components/underscore/underscore.js'></script> -->
+<script>
+seajs.config({
+    base: './'
+});
+seajs.use('js/index.js', function(index) {
+    index.init();
+})
+</script>
+
 </html>
+=======
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>穷游</title>
+    <link rel="stylesheet" href="dest/global.css">
+    <script>location.href = './views/index.html'</script>
+</head>
+
+<body></body>
+
+</html>
+>>>>>>> 41eda2d384e67510fc3aab8079f54e395b045fb1
+=======
+>>>>>>> 647aa990f937c8e7541bbd9d451494db0ce14ab9
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>穷游</title>
+    <!-- <link rel="stylesheet" href="dest/global.css"> -->
+<!-- <<<<<<< HEAD -->
+    <!-- <link rel="stylesheet" href="less/index.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="dest/animate.min.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="dest/daterangepicker.css"> -->
+</head>
+
+<body>
+    <!-- <header id="header"></header> -->
+    <!-- <div class="container"> -->
+        <div class="bannercontainer">
+            <div class="bannerbody">
+                <div class="banner banner5">
+                	<p class="page"><span>5</span>/5</p>
+                    <p class="country">穷游锦囊 | 巴塞罗那美食</p>
+                    <p class="desc">不羁的加泰罗尼亚料理 山与海的经典菜肴</p>
+                </div>
+                <div class="banner banner4">
+                	<p class="page"><span>4</span>/5</p>
+                    <p class="country">【新西兰游记攻略】星空为被 草地为席 自驾房车游</p>
+                    <p class="desc">GreatPretender</p>
+                </div>
+                <div class="banner banner3">
+                	<p class="page"><span>3</span>/5</p>
+                    <p class="country">【意大利游记攻略】美食推荐 旅拍分享 意游未尽</p>
+                    <p class="desc">大喊包Tequila</p>
+                </div>
+                <div class="banner banner2">
+                    <p class="page"><span>2</span>/5</p>
+                    <p class="country">穷游锦囊|袋鼠岛</p>
+                    <p class="desc">【日本游记攻略】滑粉雪泡温泉 顺便刷个三年签</p>
+                </div>
+                <div class="banner banner1">
+                    <p class="page"><span>1</span>/5</p>
+                    <p class="country">穷游锦囊|袋鼠岛</p>
+                    <p class="desc">享自然、遇萌物、品美食……在“没有围栏的动物园”里撒欢吧！／穿城而过的滚滚汗河，绵长秀美的海滩</p>
+                </div>
+            </div>
+            <div class="prevbtn">&lt;</div>
+			<div class="nextbtn">&gt;</div>
+            <div class="inputcontainer">
+            	<ul class="clear">
+            		<li class="li1 active">目的地</li>
+            		<li class="li2">做行程</li>
+            		<li class="li3">买折扣</li>
+            		<li class="li4">酒店</li>
+            	</ul>
+            	<div class="inputbody">
+            		<div class="destination" style="display: block;">
+            			<input type="text" name="" value="" placeholder="美国">
+            			<button type="button">搜索</button>
+            			<div class="hotsearch">
+            				<h3>热门城市</h3>
+            				<ul class="clear"></ul>
+            			</div>
+            		</div>
+            		<div class="trip">
+            			<p>一分钟搞定你的攻略</p>
+            			<a class="trip1" href="#"><i class="iconfont">&#xe685;</i>创建行程</a>
+            			<a class="trip2" href="#"><i class="iconfont">&#xe744;</i>免费定制</a>
+            		</div>
+            		<div class="discount">
+            			<input type="text" name="" value="" placeholder="搜索目的地/折扣类型/关键词">
+            			<button type="button">搜索</button>
+            			<div class="hotsearch">
+            				<h3>热门搜索</h3>
+            				<ul class="clear"></ul>
+            			</div>
+            		</div>
+            		<div class="hotel">
+            			<input class="input1" type="text" name="" value="" placeholder="请输入目的地/酒店名">
+            			<input class="input2" id="hotelin" type="text" name="" value="" placeholder="入住时间">
+            			<input class="input3" id="hotelout" type="text" name="" value="" placeholder="退房时间">
+            			<button class="hotelbtn" type="button">搜索酒店</button>
+            			<div class="hotsearch">
+            				<h3>热门搜索</h3>
+            				<ul class="clear"></ul>
+            			</div>
+            			<div class="hotelin-container"></div>
+            			<div class="hotelout-container"></div>
+            		</div>
+            	</div>
+            </div>
+        </div>
+        <div class="ads clear">
+        	<img src="images/index01.jpg" alt="">
+        	<img src="images/index02.jpg" alt="">
+        </div>
+        <div class="interestcontainer">
+        	<h2>猜你感兴趣</h2>
+        	<p><i class="iconfont">&#xe62b;</i> 换一换</p>
+        	<ul class="interest clear">
+        		<!-- <li class="interestcell">
+        			<a href="#">
+        				<img src="images/index03.jpg" alt="">
+	        			<div class="info">
+	        				<h4>我最喜欢的冰岛的冰岛温泉</h4>
+	        				<p class="infoleft">迷失冰岛</p>
+	        				<p class="inforight"><em>455</em>元起</p>
+	        			</div>
+	        			<div class="bg">
+	        				<div class="bgcolor animated bounceInRight"></div>
+	        				<span>你可能感兴趣的景点</span>
+	        			</div>
+	        			<div class="circle">
+	        				<span><i class="iconfont">&#xe614;</i></span>
+	        				<span class="bt">景点</span>
+	        			</div>
+        			</a>
+        		</li> -->
+        	</ul>
+        </div>
+        <div class="zworldcontainer">
+        	<div class="zworld">
+	        	<h2></h2>
+				<div class="slide">
+					<ul class="slideitem clear" style="display: block;">
+					</ul>
+					<ul class="slideitem clear">
+					</ul>
+					<ul class="slideitem clear"></ul>
+					<ul class="slideitem clear"></ul>
+					<ul class="slideitem clear"></ul>
+				</div>	
+				<div class="slideindicator">
+					<span class="active"></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="morebtn">
+					<a href="//z.qyer.com/">查看更多折扣</a>
+				</div>
+        	</div>
+        </div>
+        <div class="hottravelcontainer">
+        	<h2>热门游记与话题</h2>
+        	<div class="hottravel">
+				<ul class="travelitem clear" style="display: block;">
+					<li>
+						<a href="#">
+		        			<div class="img">
+		        				<img src="images/hot01.jpg" alt="">
+		        				<p><i class="iconfont">&#xe69c;</i>&nbsp;36</p>
+		        			</div>
+		        			<div class="txt">
+		        				<a>穷游大秘书<i class="iconfont">&#xe601;</i></a>
+		        				<h3>今日话题 | 哪些地方让你去了还想去？</h3>
+		        				<div class="cir">
+		        					<span><img src="images/hot_p01.jpg" alt=""></span>
+		        				</div>
+		        			</div>	
+	        			</a>
+					</li>
+				</ul>
+				<ul class="travelitem clear">
+				</ul>
+				<ul class="travelitem clear"></ul>
+				<ul class="travelitem clear"></ul>
+				<ul class="travelitem clear"></ul>
+			</div>	
+			<div class="travelindicator">
+				<span class="active"></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="morebtn">
+				<a href="//z.qyer.com/">查看更多折扣</a>
+			</div>
+        	<div class="hottravel">
+        		<div class="hotitem">
+        			
+        			
+        		</div>
+        	</div>
+        </div>
+       	<script type="text/html" id="interestModel">
+       		##for(var i=0;i<interestArray.length;i++){##
+				<li class="interestcell">
+        			<a href="#">
+        				<img src="{{interestArray[i].img}}" alt="">
+	        			<div class="info">
+	        				<h4>{{interestArray[i].title}}</h4>
+	        				<p class="infoleft">{{interestArray[i].city}}</p>
+	        				<p class="inforight"><em>{{interestArray[i].money}}</em>{{interestArray[i].desc}}</p>
+	        			</div>
+	        			<div class="bg">
+	        				<div class="bgcolor animated bounceInRight"></div>
+	        				<span>你可能感兴趣的景点</span>
+	        			</div>
+	        			<div class="circle">
+	        				<span><i class="iconfont">{{interestArray[i].tagicon}}</i></span>
+	        				<span class="bt">{{interestArray[i].tag}}</span>
+	        			</div>
+        			</a>
+        		</li>
+       		##}##
+       	</script>
+       	<script type="text/html" id="buytodayModel">
+       		##for(var i=0;i<list1.length;i++){##
+       			<li class="buytoday">
+					<h3>{{list1[i].title1}}</h3>
+					<div class="buyimg">
+						<img src="{{list1[i].img}}" alt="">
+						<div class="wrap">
+							<p>{{list1[i].title2}}</p>
+						</div>
+					</div>
+					<div class="buyprice clear">
+						<span><em>{{list1[i].money}}</em>元起</span>
+						<button type="button">立即抢购</button>
+					</div>
+					<div class="buymore">
+						<p><a href="#">{{list1[i].desc}}</a></p>
+					</div>
+				</li>
+       		##}##
+       	</script>
+       	<script type="text/html" id="buynext1Model">
+       		##for(var i=0;i<list2.length;i++){##
+       			<li class="buynext">
+					<a href="#">
+						<div class="buyleft">
+							<img src="{{list2[i].img}}" alt="">
+						</div>
+						<div class="buyright">
+							<h3>{{list2[i].title}}</h3>
+							<div class="visa clear">
+								<span class="tag">{{list2[i].type}}</span>
+								<span class="time">{{list2[i].time}}</span>
+							</div>
+							<div class="price clear">
+								<span><em>{{list2[i].money}}</em>元起</span>
+							</div>
+						</div>	
+					</a>
+				</li>
+       		##}##
+       	</script>
+    <!-- </div> -->
+    <!-- <footer id="footer"></footer> -->
+</body>
+<!-- <script src='bower_components/jquery/dist/jquery.min.js'></script> -->
+<!-- <script src='bower_components/seajs/dist/sea.js'></script> -->
+<!-- <script src='bower_components/seajs-text/dist/seajs-text.js'></script> -->
+<!-- <script src='bower_components/underscore/underscore.js'></script> -->
+<!-- 日历插件 -->
+<!-- <script src="js/moment.min.js"></script> -->
+<!-- <script src="js/jquery.daterangepicker.js"></script> -->
+
+<!-- <script src='js/main.js'></script> -->
+<!-- <script src='js/index.js'></script> -->
+<!-- ======= -->
+    <script>location.href = './views/index.html'</script>
+</head>
+
+<!-- <body></body> -->
+<!-- >>>>>>> 41eda2d384e67510fc3aab8079f54e395b045fb1 -->
+
+</html>
+<<<<<<< HEAD
+=======
+>>>>>>> 42796ba65f252d62d444d90e0556ff69ab08d1c7
+>>>>>>> 647aa990f937c8e7541bbd9d451494db0ce14ab9
